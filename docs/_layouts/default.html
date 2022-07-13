@@ -48,7 +48,7 @@
                 <div class="col">
                     <Br />
                     <p class="text-center">
-                        <h2 class="text-center">I volumi della mobilità</h2>
+                        <h2 class="text-center">I VOLUMI DELLA MOBILITÀ</h2>
                     </p>
                 </div>
             </div>
@@ -60,6 +60,7 @@
                     <p>
                         {% if page.volumimobilita %} {% capture volumimobilita %} {% include_relative _texts/{{ page.volumimobilita }}%} {% endcapture %} {{ volumimobilita | markdownify }} {% endif %}
                     </p>
+                    <br /><br />
                 </div>
                 <div class="col-3">
                     &nbsp;
@@ -70,14 +71,58 @@
 
                 </div>
             </div>
-            <br/><br/>
+
+            <div class="row">
+                <div class="col-3">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <p>
+                        <br /><br /> {% if page.volumimobilita2 %} {% capture volumimobilita2 %} {% include_relative _texts/{{ page.volumimobilita2 }}%} {% endcapture %} {{ volumimobilita2 | markdownify }} {% endif %}
+                    </p>
+                </div>
+                <div class="col-3">
+                    &nbsp;
+                </div>
+            </div>
+        </section>
+
+        <section id="provenienze">
+            <div class="row">
+                <div class="col">
+                    <Br />
+                    <p class="text-center">
+                        <h2 class="text-center">PROVENIENZE</h2>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <p>
+                        {% if page.provenienze %} {% capture provenienze %} {% include_relative _texts/{{ page.provenienze }}%} {% endcapture %} {{ provenienze | markdownify }} {% endif %}
+                    </p>
+                    <br /><br />
+                </div>
+                <div class="col-3">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="provenienze" style="width:30em;height:25em">
+
+                </div>
+            </div>
+
         </section>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/echarts.min.js"></script>
-    <script src="js/commons.js"></script>
+    <script src="js/theme/vintage.js"></script>
     <script src="js/destinazioni.js"></script>
     <script>
         $(document).ready(function() {
