@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alike&family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <section id="header">
+            <div class="row">
+                <div class="col">
+                    <Br/>
+                    <p class="text-center">
+                        <strong>
+                        <h1 class="text-center">
+                            Mapping<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobilities
+                        </h1>
+                      </strong>
+                        <br/>
+                        <h2 class="text-center">A data journey into Trentino and migration phenomenon</h2>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <p>
+                        {% if page.introduzione %} {% capture introduzione %} {% include_relative _texts/{{ page.introduzione }}%} {% endcapture %} {{ introduzione | markdownify }} {% endif %}
+                    </p>
+                </div>
+                <div class="col-3">
+                    &nbsp;
+                </div>
+            </div>
+        </section>
+        <section id="volumimigrazione">
+            <div class="row">
+                <div class="col">
+                    <Br />
+                    <p class="text-center">
+                        <h2 class="text-center">I volumi della mobilità</h2>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <p>
+                        {% if page.volumimobilita %} {% capture volumimobilita %} {% include_relative _texts/{{ page.volumimobilita }}%} {% endcapture %} {{ volumimobilita | markdownify }} {% endif %}
+                    </p>
+                </div>
+                <div class="col-3">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="destinazioni" style="width:30em;height:25em">
+
+                </div>
+            </div>
+            <br/><br/>
+        </section>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/commons.js"></script>
+    <script src="js/destinazioni.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#datipassaporti').DataTable({
+                "ajax": 'data/dati_passaporti.json'
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+    color: #002254;
+    background: #FBEFE5;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1,
+h2 {
+    color: #D34343;
+    font-family: 'Alike', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 80%;
+    /* or 82px */
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 80%;
+}
+
+#header {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
+
+#volumimigrazione {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
