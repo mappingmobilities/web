@@ -61,6 +61,34 @@
                 }
             }
         },
+        xAxis: {
+            axisLine: {
+                show: false
+            },
+            splitLine: {
+                show: false
+            },
+            axisLabel: {
+                show: false
+            },
+            axisTick: {
+                show: false
+            }
+        },
+        yAxis: {
+            axisLine: {
+                show: false
+            },
+            splitLine: {
+                show: false
+            },
+            axisLabel: {
+                show: false
+            },
+            axisTick: {
+                show: false
+            }
+        },
         series: [{
             type: 'themeRiver',
             colorBy: 'series',

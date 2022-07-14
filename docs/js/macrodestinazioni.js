@@ -23,7 +23,7 @@
             data: [{
                     name: 'Interna',
                     value: 6756,
-                    percentage: 39,
+                    percentage: 38.7,
                     colorAlpha: 0,
                     itemStyle: {
                         color: '#FBEFE5',
@@ -32,9 +32,15 @@
                     },
                     label: {
                         align: 'left',
-                        offset: [30, 40],
+                        offset: [10, 20],
                         show: true,
-                        formatter: '{b} {c} {@percentage}%',
+                        formatter: function(params) {
+                            return [
+                                params.data.name,
+                                params.data.percentage + '%',
+                                params.data.value
+                            ].join('\n');
+                        },
                         fontFamily: 'DM Sans',
                         fontSize: '17',
                         position: 'insideTopLeft',
@@ -45,7 +51,7 @@
                 {
                     name: 'Europa',
                     value: 9895,
-                    percentage: 57,
+                    percentage: 56.7,
                     itemStyle: {
                         color: '#FBEFE5',
                         borderColor: "#D34343",
@@ -53,8 +59,15 @@
                     },
                     label: {
                         align: 'left',
+                        offset: [10, 20],
                         show: true,
-                        formatter: '{b} {c} {@percentage}%',
+                        formatter: function(params) {
+                            return [
+                                params.data.name,
+                                params.data.percentage + '%',
+                                params.data.value
+                            ].join('\n');
+                        },
                         fontFamily: 'DM Sans',
                         fontSize: '17',
                         position: 'insideTopLeft',
@@ -64,19 +77,27 @@
                 }, {
                     name: 'Extra Europa',
                     value: 798,
-                    percentage: 4,
+                    percentage: 4.6,
                     itemStyle: {
                         color: '#FBEFE5',
                         borderColor: "#D34343",
                         borderWidth: 1
                     },
                     label: {
+                        align: 'right',
                         show: true,
-                        formatter: '{b} {c} {@percentage}%',
+                        offset: [-10, -20],
+                        formatter: function(params) {
+                            return [
+                                params.data.name,
+                                params.data.percentage + '%',
+                                params.data.value
+                            ].join('\n');
+                        },
                         fontFamily: 'DM Sans',
                         fontSize: '17',
                         position: 'bottom',
-                        overflow: 'truncate',
+                        overflow: 'break',
                         color: "#D34343"
                     },
                 }

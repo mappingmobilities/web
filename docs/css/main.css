@@ -5,25 +5,15 @@ body {
     background-image: url("../img/topography_contour_map.svg");
 }
 
-h1,
-h2 {
-    color: #D34343;
-    font-family: 'Alike Angular', serif;
-    font-style: normal;
-    font-weight: 400;
-}
-
 h1 {
     font-weight: 400;
     font-size: 102px;
     line-height: 80%;
     /* or 82px */
+    font-family: 'Alike Angular', serif;
     text-transform: uppercase;
-}
-
-h2 {
-    font-size: 32px;
-    line-height: 80%;
+    color: #D34343;
+    font-style: normal;
 }
 
 #header {
@@ -48,4 +38,54 @@ h2 {
     letter-spacing: 0.01em;
     /* Blue */
     color: #002254;
+}
+
+#volumimigrazione h2 {
+    font-family: 'Alike Angular', serif;
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 80%;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 80%;
+    color: #D34343;
+}
+
+#provenienze h2 {
+    font-family: 'Alike Angular', serif;
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 80%;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 80%;
+    color: #D34343;
+}
+
+#geoprovenienze {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Beige */
+    color: #FBEFE5;
+    /* Blue */
+    background: #002254;
+    opacity: 0.75;
+}
+
+#geoprovenienze h1,
+h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FBEFE5;
 }

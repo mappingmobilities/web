@@ -17,7 +17,7 @@
         <section id="header">
             <div class="row">
                 <div class="col">
-                    <Br/>
+                    <br/>
                     <p class="text-center">
                         <strong>
                         <h1 class="text-center">
@@ -46,7 +46,7 @@
         <section id="volumimigrazione">
             <div class="row">
                 <div class="col">
-                    <Br />
+                    <br />
                     <p class="text-center">
                         <h2 class="text-center">I VOLUMI DELLA MOBILITÀ</h2>
                     </p>
@@ -112,6 +112,39 @@
             </div>
             <div class="row">
                 <div class="col" id="macrodestinazioni" style="height:14em">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    cucc
+                </div>
+            </div>
+        </section>
+        <section id="geoprovenienze">
+            <div class="row">
+                <div class="col">
+                    <Br />
+                    <p class="text-center">
+                        <h2 class="text-center">PROVENIENZE</h2>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <p>
+                        {% if page.geoprovenienze %} {% capture geoprovenienze %} {% include_relative _texts/{{ page.geoprovenienze }}%} {% endcapture %} {{ geoprovenienze | markdownify }} {% endif %}
+                    </p>
+                    <br /><br />
+                </div>
+                <div class="col-3">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="mappaorigini" style="width:30em;height:25em">
 
                 </div>
             </div>
@@ -124,6 +157,7 @@
     <script src="js/theme/vintage.js"></script>
     <script src="js/volumi.js"></script>
     <script src="js/macrodestinazioni.js"></script>
+    <script src="js/geoprovenienze.js"></script>
     <script>
         $(document).ready(function() {
             $('#datipassaporti').DataTable({
