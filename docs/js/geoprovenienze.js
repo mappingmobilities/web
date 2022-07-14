@@ -1,4 +1,4 @@
- var mappaoriginiChart = echarts.init(document.getElementById('mappaorigini'), 'vintage');
+ var mappaoriginiChart = echarts.init(document.getElementById('mappaorigini'), 'moretti');
  mappaoriginiChart.showLoading();
  $.get('data/comunita_valle.json', function(trentinoJson) {
      mappaoriginiChart.hideLoading();
@@ -11,19 +11,17 @@
              showDelay: 2,
              transitionDuration: 0.3
          },
-         /*
          visualMap: {
-             left: 'left',
              min: 5, //0.5, //5,
              max: 3500, //30, //3500,
              inRange: {
-                 color: ['#3f5578', '#c3c1c4', '#9da2af', '#919e8b']
+                 color: ['#002254', '#c3c1c4', '#9da2af', '#4e515a']
              },
              text: ['Massimo', 'Minimo'],
-             calculable: true,
-             visible: false
+             //calculable: true,
+             visible: false,
+             type: 'piecewise'
          },
-         */
          select: {
              disabled: true,
          },
@@ -38,11 +36,6 @@
              data: [{
                  name: 'Giudicarie',
                  value: 12, //0.10 //12
-                 itemStyle: {
-                     areaColor: '#eee',
-                     color: 'red',
-                     backgroundColor: 'yellow'
-                 }
              }, {
                  name: 'Alta Valsugana e Bersntol',
                  value: 3319 //27.98 //
