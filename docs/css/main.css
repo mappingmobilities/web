@@ -2,6 +2,7 @@ body {
     color: #002254;
     background: #FBEFE5;
     font-family: 'DM Sans', sans-serif;
+    background-image: url("../img/topography_contour_map.svg");
 }
 
 h1,

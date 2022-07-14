@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>{{ page.title }}</title>
+    <title>{{ config.title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,12 +67,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col" id="destinazioni" style="width:30em;height:25em">
+                <div class="col" id="volumi" style="width:30em;height:25em">
 
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="mostravolumi">
                 <div class="col-3">
                     &nbsp;
                 </div>
@@ -111,11 +111,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col" id="provenienze" style="width:30em;height:45em">
+                <div class="col" id="macrodestinazioni" style="height:14em">
 
                 </div>
             </div>
-
         </section>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -123,7 +122,8 @@
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/echarts.min.js"></script>
     <script src="js/theme/vintage.js"></script>
-    <script src="js/destinazioni.js"></script>
+    <script src="js/volumi.js"></script>
+    <script src="js/macrodestinazioni.js"></script>
     <script>
         $(document).ready(function() {
             $('#datipassaporti').DataTable({
