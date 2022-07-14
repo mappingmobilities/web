@@ -1,8 +1,8 @@
-    var dom = document.getElementById('volumi');
-    var destinazioniChart = echarts.init(dom, "vintage", {
+    var destinazioniChart = echarts.init(document.getElementById('volumi'), "vintage");
+    /*, {
         renderer: 'canvas',
         useDirtyRect: false
-    });
+    });*/
 
     var option_macrodestinazioni;
 

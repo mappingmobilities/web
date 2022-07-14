@@ -19,7 +19,7 @@
              },
              text: ['Massimo', 'Minimo'],
              //calculable: true,
-             visible: false,
+             show: false,
              type: 'piecewise'
          },
          select: {

@@ -148,6 +148,33 @@
 
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <Br />
+                    <p class="text-center">
+                        <h2 class="text-center">PARTENZE E DESTINAZIONI</h2>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <p>
+                        {% if page.partenzedestinazioni %} {% capture partenzedestinazioni %} {% include_relative _texts/{{ page.partenzedestinazioni }}%} {% endcapture %} {{ partenzedestinazioni | markdownify }} {% endif %}
+                    </p>
+                    <br /><br />
+                </div>
+                <div class="col-3">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="partenzedestinazioni" style="width:30em;height:25em">
+
+                </div>
+            </div>
         </section>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -159,6 +186,7 @@
     <script src="js/volumi.js"></script>
     <script src="js/macrodestinazioni.js"></script>
     <script src="js/geoprovenienze.js"></script>
+    <script src="js/partenzedestinazioni.js"></script>
     <script>
         $(document).ready(function() {
             $('#datipassaporti').DataTable({
