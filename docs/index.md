@@ -9,7 +9,9 @@ partenzedestinazioni: partenzedestinazioni.md
 mestieri: mestieri.md
 uominidonne: uominidonne.md
 genere: genere.md
-testimonianze: testimonianze.md
+testimonianza1: testimonianza1.md
+testimonianza2: testimonianza3.md
+testimonianza3: testimonianza3.md
 infoprogetto: infoprogetto.md
 collaborazioni: collaborazioni.md
 ---

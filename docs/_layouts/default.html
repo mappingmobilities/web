@@ -274,19 +274,29 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        &nbsp;
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                {% if page.testimonianaza1 %} {% capture testimonianaza1 %} {% include_relative _texts/{{ page.testimonianaza1 }}%} {% endcapture %} {{ testimonianaza1 | markdownify }} {% endif %}
+                            </div>
+                            <div class="carousel-item">
+                                {% if page.testimonianaza2 %} {% capture testimonianaza2 %} {% include_relative _texts/{{ page.testimonianaza2 }}%} {% endcapture %} {{ testimonianaza2 | markdownify }} {% endif %} </div>
+                            <div class="carousel-item">
+                                {% if page.testimonianaza3 %} {% capture testimonianaza3 %} {% include_relative _texts/{{ page.testimonianaza3 }}%} {% endcapture %} {{ testimonianaza3 | markdownify }} {% endif %} </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        {% if page.testimonianze %} {% capture testimonianze %} {% include_relative _texts/{{ page.testimonianze }}%} {% endcapture %} {{ testimonianze | markdownify }} {% endif %}
-                        <br /><br />
-                    </div>
-                    <div class="col-3">
-                        &nbsp;
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
     <div class="container-fluid">
         <section id="esploradati">
