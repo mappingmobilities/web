@@ -17,11 +17,6 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
             roam: true,
             emphasis: {
                 focus: 'adjacency'
-            },
-            label: {
-                show: true,
-                position: 'right',
-                formatter: '{b}'
             }
         }]
     };
