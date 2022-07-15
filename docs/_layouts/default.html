@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>{{ config.title }}</title>
+    <title>Mapping Mobilities</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alike&family=Alike+Angular&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css" />
     <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -16,7 +17,7 @@
     <div class="container">
         <section id="header">
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
@@ -28,7 +29,7 @@
                       </strong>
                     <br/>
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -39,7 +40,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
@@ -49,7 +50,7 @@
                         {% if page.introduzione %} {% capture introduzione %} {% include_relative _texts/{{ page.introduzione }}%} {% endcapture %} {{ introduzione | markdownify }} {% endif %}
                     </p>
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -64,7 +65,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
@@ -72,7 +73,7 @@
 
                     <br /><br />
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -83,13 +84,13 @@
             </div>
 
             <div class="row" id="mostravolumi">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
                     <br /><br /> {% if page.volumimobilita2 %} {% capture volumimobilita2 %} {% include_relative _texts/{{ page.volumimobilita2 }}%} {% endcapture %} {{ volumimobilita2 | markdownify }} {% endif %}
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -103,14 +104,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
                     {% if page.provenienze %} {% capture provenienze %} {% include_relative _texts/{{ page.provenienze }}%} {% endcapture %} {{ provenienze | markdownify }} {% endif %}
                     <br /><br />
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -136,14 +137,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
                     {% if page.geoprovenienze %} {% capture geoprovenienze %} {% include_relative _texts/{{ page.geoprovenienze }}%} {% endcapture %} {{ geoprovenienze | markdownify }} {% endif %}
                     <br /><br />
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -161,7 +162,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
@@ -170,7 +171,7 @@
                     </p>
                     <br /><br />
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     &nbsp;
                 </div>
             </div>
@@ -191,14 +192,14 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-2">
                         &nbsp;
                     </div>
                     <div class="col">
                         {% if page.mestieri %} {% capture mestieri %} {% include_relative _texts/{{ page.mestieri }}%} {% endcapture %} {{ mestieri | markdownify }} {% endif %}
                         <br /><br />
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         &nbsp;
                     </div>
                 </div>
@@ -218,14 +219,14 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-2">
                         &nbsp;
                     </div>
                     <div class="col">
                         {% if page.uominidonne %} {% capture uominidonne %} {% include_relative _texts/{{ page.uominidonne }}%} {% endcapture %} {{ uominidonne | markdownify }} {% endif %}
                         <br /><br />
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         &nbsp;
                     </div>
                 </div>
@@ -245,14 +246,14 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-2">
                         &nbsp;
                     </div>
                     <div class="col">
                         {% if page.genere %} {% capture genere %} {% include_relative _texts/{{ page.genere }}%} {% endcapture %} {{ genere | markdownify }} {% endif %}
                         <br /><br />
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         &nbsp;
                     </div>
                 </div>
@@ -265,55 +266,95 @@
         </section>
     </div>
 
-
     <div class="container-fluid">
-        <section id="esploradati">
-            <div class="row">
-                <div class="col">
-                    <br /> <br />
-                    <p class="text-center">
-                        <h2 class="text-center">esplora i dati raccolti</h2>
-                    </p>
+        <section id="testimonianze">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <br/>
+                        <h2>Testimonianze</h2>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        &nbsp;
+                    <div class="col-1">
+                        <p>
+                            <br /><br />
+
+                            <a class="" href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="prev"><span
+                                class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                        </p>
                     </div>
-                    <div class="col" id="dati">
-                        <div>
-                            <table id="datipassaporti" class="table card-table table-vcenter text-nowrap datatable display">
-                                <thead>
-                                    <tr>
-                                        <th>nome</th>
-                                        <th>data di nascita</th>
-                                        <th>luogo di nascita</th>
-                                        <th>sesso</th>
-                                        <th>mestiere</th>
-                                        <th>data rilascio passaporto</th>
-                                        <th>validita passaporto</th>
-                                        <th>espatri</th>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </thead>
-                            </table>
+                    <div class="col">
+                        <div id="caroselloTestimonianze" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    {% if page.testimonianza1 %} {% capture testimonianza1 %} {% include_relative _texts/{{ page.testimonianza1 }}%} {% endcapture %} {{ testimonianza1 | markdownify }} {% endif %}
+                                    <br />
+                                </div>
+                                <div class="carousel-item">
+                                    {% if page.testimonianza2 %} {% capture testimonianza2 %} {% include_relative _texts/{{ page.testimonianza2 }}%} {% endcapture %} {{ testimonianza2 | markdownify }} {% endif %}
+                                    <br />
+                                </div>
+                                <div class="carousel-item">
+                                    {% if page.testimonianza3 %} {% capture testimonianza3 %} {% include_relative _texts/{{ page.testimonianza3 }}%} {% endcapture %} {{ testimonianza3 | markdownify }} {% endif %}
+                                    <br />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        &nbsp;
+                    <div class="col-1">
+                        <p>
+                            <br/><br/>
+                            <a href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="next"><span
+                                    class="carousel-control-next-icon"
+                                    aria-hidden="true"></span></a>
+                        </p>
                     </div>
                 </div>
-            </div>
+        </section>
+        </div>
+        <div class="container">
+            <section id="esploradati">
+                <div class="row">
+                    <div class="col">
+                        <br /> <br />
+                        <p class="text-center">
+                            <h2 class="text-center">esplora i dati raccolti</h2>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="table-responsive">
+                        <table id="datipassaporti" class="table card-table table-vcenter text-nowrap datatable display">
+                            <thead>
+                                <tr>
+                                    <th>nome</th>
+                                    <th>data di nascita</th>
+                                    <th>luogo di nascita</th>
+                                    <th>sesso</th>
+                                    <th>mestiere</th>
+                                    <th>data rilascio passaporto</th>
+                                    <th>validita passaporto</th>
+                                    <th>espatri</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+        </div>
         </section>
     </div>
+
     <div class="container-fluid">
         <section id="footer">
             <div class="container">
@@ -326,7 +367,6 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-
                         <p>
                             {% if page.infoprogetto %} {% capture infoprogetto %} {% include_relative _texts/{{ page.infoprogetto }}%} {% endcapture %} {{ infoprogetto | markdownify }} {% endif %}
                         </p>
@@ -338,7 +378,7 @@
                     </div>
                     <div class="col-4">
                         <p>
-                            <img src="img/logo.png" alt="logo" class="img-fluid" />
+                            <img width="100px" src="img/logo.svg" alt="logo" class="img-fluid" />
                         </p>
                     </div>
                 </div>
@@ -347,9 +387,9 @@
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/datatables.min.js"></script>
     <script src="js/echarts.min.js"></script>
-    <script src="js/theme/vintage.js"></script>
+    <script src="js/theme/mappingmobilities.js"></script>
     <script src="js/theme/moretti.js"></script>
     <script src="js/volumi.js"></script>
     <script src="js/macrodestinazioni.js"></script>
@@ -358,14 +398,7 @@
     <script src="js/mestieri.js"></script>
     <script src="js/distribuzione_eta.js"></script>
     <script src="js/genere.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('#datipassaporti').DataTable({
-                "ajax ": 'data/dati_passaporti.json'
-            });
-        });
-    </script>
+    <script src="js/datitabellari.js"></script>
 </body>
 
 </html>

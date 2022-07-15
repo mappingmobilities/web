@@ -1,3 +1,5 @@
 in collaborazione con:
-- Museo
-- Sheldon Studio
+
+- [Fondazione Museo Storico](http://www.museostorico.it)
+- Matteo Moretti (website design)
+- Beatrice Marsili (data curation)

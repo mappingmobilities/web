@@ -1,4 +1,4 @@
-var macrodestinazioniChart = echarts.init(document.getElementById('macrodestinazioni'), "vintage");
+var macrodestinazioniChart = echarts.init(document.getElementById('macrodestinazioni'), "mappingmobilities");
 /*, {
         renderer: 'canvas',
         useDirtyRect: false

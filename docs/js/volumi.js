@@ -1,4 +1,4 @@
-    var volumiChart = echarts.init(document.getElementById('volumi'), "vintage", {
+    var volumiChart = echarts.init(document.getElementById('volumi'), "mappingmobilities", {
         renderer: 'canvas',
         useDirtyRect: false
     });
@@ -101,6 +101,9 @@
             tooltip: {
                 show: true,
                 formatter: '{b0}: {c0}',
+            },
+            itemStyle: {
+                color: "#D34343"
             },
             data: [
                 ['1878', 0, 'Africa'],

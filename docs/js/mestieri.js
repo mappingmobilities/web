@@ -1,8 +1,9 @@
-    var mestieriChart = echarts.init(document.getElementById('graficomestieri'), 'vintage');
+    var mestieriChart = echarts.init(document.getElementById('graficomestieri'), 'mappingmobilities');
     option = {
         roam: false,
         nodeClick: false,
         series: [{
+            roam: false,
             type: 'treemap',
             tooltip: {
                 formatter: function(info) {
@@ -109,6 +110,23 @@
                         borderColor: "#002254",
                         borderWidth: 1
                     },
+                    label: {
+                        align: 'left',
+                        offset: [10, 20],
+                        show: true,
+                        formatter: function(params) {
+                            return [
+                                params.data.name,
+                                params.data.percentage + '%',
+                                params.data.value
+                            ].join('\n');
+                        },
+                        fontFamily: 'DM Sans',
+                        fontSize: '17',
+                        position: 'insideTopLeft',
+                        overflow: 'truncate',
+                        color: "#002254"
+                    }
                 }, {
                     name: 'commercio',
                     value: 393,

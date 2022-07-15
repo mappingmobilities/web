@@ -2,7 +2,6 @@ body {
     color: #002254;
     background: #FBEFE5;
     font-family: 'DM Sans', sans-serif;
-    background-image: url("../img/topography_contour_map.svg");
 }
 
 #header {
@@ -15,6 +14,7 @@ body {
     letter-spacing: 0.01em;
     /* Blue */
     color: #002254;
+    background-image: url("../img/topography_contour_map.svg");
 }
 
 #header h1 {
@@ -168,11 +168,33 @@ body {
     color: #002254;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: 002254;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid 002254;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #002254;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #002254;
+}
+
 #testimonianze {
     /* Brown */
     font-size: 17px;
     background: #D34343;
-    position: absolute;
     font-family: 'Alike Angular';
     font-style: normal;
     font-weight: 400;

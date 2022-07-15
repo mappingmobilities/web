@@ -1,15 +1,20 @@
-    var genereChart = echarts.init(document.getElementById('graficogenere'), "vintage", {
+    var genereChart = echarts.init(document.getElementById('graficogenere'), "mappingmobilities", {
         renderer: 'canvas'
     });
     option = {
         aria: {
             show: true
         },
+        colorAlpha: [0.5, 0.5],
         roam: false,
         nodeClick: false,
         title: {},
         tooltip: {
             trigger: 'item'
+        },
+        itemStyle: {
+            color: "#D34343",
+            opacity: 0.5
         },
         legend: {
             // Try 'horizontal'
@@ -18,6 +23,11 @@
             top: 'center'
         },
         series: [{
+            itemStyle: {
+                color: "#D34343",
+                opacity: 0.5
+            },
+            roam: false,
             type: 'treemap',
             stillShowZeroSum: false,
             data: [{
@@ -40,6 +50,10 @@
                     position: 'insideTopLeft',
                     overflow: 'truncate',
                     color: "#002254"
+                },
+                itemStyle: {
+                    color: "#D34343",
+                    opacity: 0.5
                 }
             }, {
                 value: 908,
@@ -60,7 +74,11 @@
                     fontSize: '17',
                     position: 'insideTopLeft',
                     overflow: 'truncate',
-                    color: "#002254"
+                    color: "#D34343"
+                },
+                itemStyle: {
+                    color: "#002254",
+                    opacity: 0.1
                 }
             }]
         }]
