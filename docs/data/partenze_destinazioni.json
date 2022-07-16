@@ -1,45 +1,143 @@
 {
     "nodes": [{
-            "name": "Ungheria"
+            "name": "Ungheria",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Germania"
+            "name": "Germania",
+            "label": {
+                "show": true,
+                "position": "bottom",
+                "verticalAlign": "bottom",
+                "distance": 20,
+                "rotate": 25
+            }
         },
         {
-            "name": "Asia"
+            "name": "Asia",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Europa"
+            "name": "Europa",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Italia"
+            "name": "Italia",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "America"
+            "name": "America",
+            "label": {
+                "show": true,
+                "position": "bottom",
+                "verticalAlign": "bottom",
+                "distance": 20,
+                "rotate": 25
+            }
         },
         {
-            "name": "Francia"
+            "name": "Francia",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Bosnia-Erzegovina"
+            "name": "Bosnia-Erzegovina",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Austria-Ungheria"
+            "name": "Austria-Ungheria",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Austria"
+            "name": "Austria",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Africa"
+            "name": "Africa",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Turchia"
+            "name": "Turchia",
+            "label": {
+                "show": true,
+                "position": "bottom",
+                "verticalAlign": "bottom",
+                "distance": 20,
+                "rotate": 25
+            }
         },
         {
-            "name": "Esteri d'Europa"
+            "name": "Esteri d'Europa",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Svizzera"
+            "name": "Svizzera",
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
             "name": "Val di Non"

@@ -4,6 +4,10 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #header {
     font-family: 'DM Sans';
     font-style: normal;
@@ -253,7 +257,8 @@ body {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: small;
+    /* 17px;*/
     line-height: 160%;
     /* or 27px */
     letter-spacing: 0.01em;
@@ -264,7 +269,8 @@ body {
     font-family: 'Alike Angular';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: normal;
+    /*32px;*/
     line-height: 80%;
     /* or 26px */
     text-transform: uppercase;
