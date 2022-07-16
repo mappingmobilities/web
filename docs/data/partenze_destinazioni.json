@@ -1,26 +1,7 @@
 {
     "nodes": [{
-            "name": "Ungheria",
-            "label": {
-                "show": true,
-                "position": "top",
-                "verticalAlign": "top",
-                "distance": 0,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "Germania",
-            "label": {
-                "show": true,
-                "position": "bottom",
-                "verticalAlign": "bottom",
-                "distance": 20,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "Asia",
+            "name": "Esteri d'Europa",
+            "value": 1,
             "label": {
                 "show": true,
                 "position": "top",
@@ -31,6 +12,7 @@
         },
         {
             "name": "Europa",
+            "value": 1,
             "label": {
                 "show": true,
                 "position": "top",
@@ -40,57 +22,8 @@
             }
         },
         {
-            "name": "Italia",
-            "label": {
-                "show": true,
-                "position": "top",
-                "verticalAlign": "top",
-                "distance": 0,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "America",
-            "label": {
-                "show": true,
-                "position": "bottom",
-                "verticalAlign": "bottom",
-                "distance": 20,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "Francia",
-            "label": {
-                "show": true,
-                "position": "top",
-                "verticalAlign": "top",
-                "distance": 0,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "Bosnia-Erzegovina",
-            "label": {
-                "show": true,
-                "position": "top",
-                "verticalAlign": "top",
-                "distance": 0,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "Austria-Ungheria",
-            "label": {
-                "show": true,
-                "position": "top",
-                "verticalAlign": "top",
-                "distance": 0,
-                "rotate": 25
-            }
-        },
-        {
-            "name": "Austria",
+            "name": "Asia",
+            "value": 1,
             "label": {
                 "show": true,
                 "position": "top",
@@ -101,6 +34,7 @@
         },
         {
             "name": "Africa",
+            "value": 1,
             "label": {
                 "show": true,
                 "position": "top",
@@ -110,17 +44,52 @@
             }
         },
         {
-            "name": "Turchia",
+            "name": "America",
+            "value": 1,
             "label": {
                 "show": true,
-                "position": "bottom",
-                "verticalAlign": "bottom",
-                "distance": 20,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
                 "rotate": 25
             }
         },
         {
-            "name": "Esteri d'Europa",
+            "name": "Austria-Ungheria",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
+        },
+        {
+            "name": "Bosnia-Erzegovina",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
+        },
+        {
+            "name": "Austria",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
+        },
+        {
+            "name": "Italia",
+            "value": 1,
             "label": {
                 "show": true,
                 "position": "top",
@@ -131,6 +100,7 @@
         },
         {
             "name": "Svizzera",
+            "value": 1,
             "label": {
                 "show": true,
                 "position": "top",
@@ -140,876 +110,1921 @@
             }
         },
         {
-            "name": "Val di Non"
+            "name": "Ungheria",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Valle dei Laghi"
+            "name": "Turchia",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Alta Valsugana e Bersntol"
+            "name": "Francia",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Val di Cembra"
+            "name": "Germania",
+            "value": 1,
+            "label": {
+                "show": true,
+                "position": "top",
+                "verticalAlign": "top",
+                "distance": 0,
+                "rotate": 25
+            }
         },
         {
-            "name": "Valle delĺ'Adige"
+            "name": "Val di Fiemme",
+            "value": 1
         },
         {
-            "name": "Piana Rotaliana"
+            "name": "Giudicarie",
+            "value": 1
         },
         {
-            "name": "Altopiano della Paganella"
+            "name": "Altipiani Cimbri",
+            "value": 1
         },
         {
-            "name": "Alto Garda e Ledro"
+            "name": "Val di Fassa",
+            "value": 1
         },
         {
-            "name": "Valsugana e Tesino"
+            "name": "Alto Garda e Ledro",
+            "value": 1
         },
         {
-            "name": "Val di Fiemme"
+            "name": "Vallagarina",
+            "value": 1
         },
         {
-            "name": "Altipiani Cimbri"
+            "name": "Valle di Cembra",
+            "value": 1
         },
         {
-            "name": "Val di Sole"
+            "name": "Val di Sole",
+            "value": 1
         },
         {
-            "name": "Vallagarina"
+            "name": "Primiero",
+            "value": 1
         },
         {
-            "name": "Primiero"
+            "name": "Valsugana e Tesino",
+            "value": 1
         },
         {
-            "name": "Valle di Cembra"
+            "name": "Altopiano della Paganella",
+            "value": 1
         },
         {
-            "name": "Val di Fassa"
+            "name": "Piana Rotaliana",
+            "value": 1
         },
         {
-            "name": "Giudicarie"
+            "name": "Valle dei Laghi",
+            "value": 1
+        },
+        {
+            "name": "Val di Non",
+            "value": 1
+        },
+        {
+            "name": "Val di Cembra",
+            "value": 1
+        },
+        {
+            "name": "Valle delĺ'Adige",
+            "value": 1
+        },
+        {
+            "name": "Alta Valsugana e Bersntol",
+            "value": 1
         }
     ],
     "links": [{
             "source": "Val di Fiemme",
-            "target": "Europa",
-            "value": 1
+            "target": "America",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Fiemme",
-            "target": "Africa",
-            "value": 1
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Fiemme",
-            "target": "Asia",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Fiemme",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "target": "Italia",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Giudicarie",
-            "target": "Europa",
-            "value": 1
+            "target": "America",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Giudicarie",
+            "target": "Austria",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Giudicarie",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Giudicarie",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Giudicarie",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Giudicarie",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Giudicarie",
-            "target": "Esteri d'Europa",
-            "value": 1
-        },
-        {
-            "source": "Giudicarie",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
-        },
-        {
-            "source": "Altipiani Cimbri",
             "target": "Europa",
-            "value": 1
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Giudicarie",
+            "target": "Germania",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Giudicarie",
+            "target": "Italia",
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Giudicarie",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altipiani Cimbri",
+            "target": "America",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altipiani Cimbri",
+            "target": "Austria",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altipiani Cimbri",
+            "target": "Francia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altipiani Cimbri",
+            "target": "Germania",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altipiani Cimbri",
+            "target": "Italia",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Fassa",
+            "target": "America",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Fassa",
+            "target": "Austria",
+            "value": 0,
+            "weights": 5,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Fassa",
             "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Altipiani Cimbri",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Altipiani Cimbri",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Altipiani Cimbri",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Fassa",
             "target": "Europa",
-            "value": 1
+            "value": 0,
+            "weights": 5,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Fassa",
+            "target": "Francia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Fassa",
+            "target": "Germania",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Fassa",
+            "target": "Italia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Fassa",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alto Garda e Ledro",
+            "target": "America",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alto Garda e Ledro",
+            "target": "Austria",
+            "value": 0,
+            "weights": 8,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alto Garda e Ledro",
             "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Val di Fassa",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Val di Fassa",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Val di Fassa",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Val di Fassa",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Val di Fassa",
-            "target": "Esteri d'Europa",
-            "value": 1
-        },
-        {
-            "source": "Val di Fassa",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Alto Garda e Ledro",
             "target": "Europa",
-            "value": 1
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Alto Garda e Ledro",
-            "target": "Austria-Ungheria",
-            "value": 1
+            "target": "Francia",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Alto Garda e Ledro",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Alto Garda e Ledro",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Alto Garda e Ledro",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Alto Garda e Ledro",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Alto Garda e Ledro",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Alto Garda e Ledro",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 8,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Alto Garda e Ledro",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alto Garda e Ledro",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
-            "target": "Europa",
-            "value": 1
+            "target": "America",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Vallagarina",
+            "target": "Austria",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 12,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
-            "target": "Africa",
-            "value": 1
+            "target": "Europa",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
-            "target": "Svizzera",
-            "value": 1
+            "target": "Francia",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Vallagarina",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Vallagarina",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 13,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Vallagarina",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 5,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Vallagarina",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle di Cembra",
-            "target": "Europa",
-            "value": 1
+            "target": "America",
+            "value": 0,
+            "weights": 7,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle di Cembra",
+            "target": "Austria",
+            "value": 0,
+            "weights": 5,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle di Cembra",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle di Cembra",
-            "target": "Africa",
-            "value": 1
+            "target": "Europa",
+            "value": 0,
+            "weights": 13,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle di Cembra",
-            "target": "Svizzera",
-            "value": 1
+            "target": "Francia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle di Cembra",
-            "target": "Turchia",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 5,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle di Cembra",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Valle di Cembra",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
-            "target": "Europa",
-            "value": 1
+            "target": "America",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Sole",
+            "target": "Asia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
             "target": "Austria",
-            "value": 1
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 13,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
-            "target": "Africa",
-            "value": 1
+            "target": "Europa",
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Val di Sole",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Val di Sole",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 8,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 8,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Sole",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Sole",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 5,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Primiero",
+            "target": "Austria",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Primiero",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 17,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Primiero",
-            "target": "Africa",
-            "value": 1
+            "target": "Europa",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Primiero",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Primiero",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Primiero",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Primiero",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Primiero",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valsugana e Tesino",
+            "target": "America",
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valsugana e Tesino",
+            "target": "Austria",
+            "value": 0,
+            "weights": 11,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valsugana e Tesino",
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 29,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valsugana e Tesino",
             "target": "Europa",
-            "value": 1
+            "value": 0,
+            "weights": 9,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valsugana e Tesino",
-            "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Valsugana e Tesino",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Valsugana e Tesino",
-            "target": "Svizzera",
-            "value": 1
+            "target": "Esteri d'Europa",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valsugana e Tesino",
             "target": "Francia",
-            "value": 1
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valsugana e Tesino",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Valsugana e Tesino",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Valsugana e Tesino",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "target": "Germania",
+            "value": 0,
+            "weights": 21,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valsugana e Tesino",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 20,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valsugana e Tesino",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valsugana e Tesino",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altopiano della Paganella",
-            "target": "Europa",
-            "value": 1
+            "target": "America",
+            "value": 0,
+            "weights": 22,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altopiano della Paganella",
+            "target": "Austria",
+            "value": 0,
+            "weights": 81,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altopiano della Paganella",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 117,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altopiano della Paganella",
-            "target": "Africa",
-            "value": 1
+            "target": "Bosnia-Erzegovina",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altopiano della Paganella",
+            "target": "Europa",
+            "value": 0,
+            "weights": 129,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altopiano della Paganella",
+            "target": "Esteri d'Europa",
+            "value": 0,
+            "weights": 8,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altopiano della Paganella",
+            "target": "Francia",
+            "value": 0,
+            "weights": 13,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altopiano della Paganella",
             "target": "Germania",
-            "value": 1
-        },
-        {
-            "source": "Altopiano della Paganella",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Altopiano della Paganella",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Altopiano della Paganella",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Altopiano della Paganella",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Altopiano della Paganella",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "value": 0,
+            "weights": 69,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altopiano della Paganella",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 87,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Altopiano della Paganella",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 16,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Altopiano della Paganella",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 13,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Africa",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "America",
+            "value": 0,
+            "weights": 36,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Asia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Austria",
+            "value": 0,
+            "weights": 84,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 161,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
             "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Europa",
+            "value": 0,
+            "weights": 182,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Esteri d'Europa",
+            "value": 0,
+            "weights": 8,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Francia",
+            "value": 0,
+            "weights": 34,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Germania",
+            "value": 0,
+            "weights": 113,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Italia",
+            "value": 0,
+            "weights": 52,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Piana Rotaliana",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 53,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Piana Rotaliana",
             "target": "Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 21,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Piana Rotaliana",
-            "target": "Europa",
-            "value": 1
-        },
-        {
-            "source": "Piana Rotaliana",
-            "target": "Austria",
-            "value": 1
-        },
-        {
-            "source": "Piana Rotaliana",
-            "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Piana Rotaliana",
+            "source": "Valle dei Laghi",
             "target": "Africa",
-            "value": 1
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Piana Rotaliana",
-            "target": "Germania",
-            "value": 1
+            "source": "Valle dei Laghi",
+            "target": "America",
+            "value": 0,
+            "weights": 79,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Piana Rotaliana",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Piana Rotaliana",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Piana Rotaliana",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Piana Rotaliana",
+            "source": "Valle dei Laghi",
             "target": "Asia",
-            "value": 1
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Piana Rotaliana",
-            "target": "Esteri d'Europa",
-            "value": 1
+            "source": "Valle dei Laghi",
+            "target": "Austria",
+            "value": 0,
+            "weights": 215,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Piana Rotaliana",
-            "target": "Italia",
-            "value": 1
+            "source": "Valle dei Laghi",
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 302,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Piana Rotaliana",
+            "source": "Valle dei Laghi",
             "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 6,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Europa",
+            "value": 0,
+            "weights": 330,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Esteri d'Europa",
+            "value": 0,
+            "weights": 21,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Francia",
+            "value": 0,
+            "weights": 98,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Germania",
+            "value": 0,
+            "weights": 237,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Italia",
+            "value": 0,
+            "weights": 200,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 94,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle dei Laghi",
+            "target": "Turchia",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle dei Laghi",
             "target": "Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 68,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle dei Laghi",
-            "target": "Europa",
-            "value": 1
+            "source": "Val di Non",
+            "target": "America",
+            "value": 0,
+            "weights": 80,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle dei Laghi",
+            "source": "Val di Non",
             "target": "Austria",
-            "value": 1
+            "value": 0,
+            "weights": 253,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle dei Laghi",
+            "source": "Val di Non",
             "target": "Austria-Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 357,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle dei Laghi",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Germania",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Esteri d'Europa",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "Italia",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
-            "target": "America",
-            "value": 1
-        },
-        {
-            "source": "Valle dei Laghi",
+            "source": "Val di Non",
             "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Non",
             "target": "Europa",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Germania",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Val di Non",
-            "target": "Asia",
-            "value": 1
+            "value": 0,
+            "weights": 418,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Non",
             "target": "Esteri d'Europa",
-            "value": 1
+            "value": 0,
+            "weights": 29,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Non",
+            "target": "Francia",
+            "value": 0,
+            "weights": 56,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Non",
+            "target": "Germania",
+            "value": 0,
+            "weights": 253,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Non",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 222,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Non",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 70,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Non",
+            "target": "Turchia",
+            "value": 0,
+            "weights": 2,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Non",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 56,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
             "target": "America",
-            "value": 1
+            "value": 0,
+            "weights": 104,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Val di Non",
+            "source": "Val di Cembra",
+            "target": "Austria",
+            "value": 0,
+            "weights": 386,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 587,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
             "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 10,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Cembra",
             "target": "Europa",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Germania",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Val di Cembra",
-            "target": "Asia",
-            "value": 1
+            "value": 0,
+            "weights": 579,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Cembra",
             "target": "Esteri d'Europa",
-            "value": 1
+            "value": 0,
+            "weights": 28,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
+            "target": "Francia",
+            "value": 0,
+            "weights": 173,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
+            "target": "Germania",
+            "value": 0,
+            "weights": 582,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Cembra",
             "target": "Italia",
-            "value": 1
+            "value": 0,
+            "weights": 147,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Val di Cembra",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 185,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
+            "target": "Turchia",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Val di Cembra",
+            "target": "Ungheria",
+            "value": 0,
+            "weights": 100,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Africa",
+            "value": 0,
+            "weights": 4,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
             "target": "America",
-            "value": 1
+            "value": 0,
+            "weights": 218,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Val di Cembra",
+            "source": "Valle delĺ'Adige",
+            "target": "Asia",
+            "value": 0,
+            "weights": 7,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Austria",
+            "value": 0,
+            "weights": 393,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 1208,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
             "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 77,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Europa",
+            "value": 0,
+            "weights": 690,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Esteri d'Europa",
+            "value": 0,
+            "weights": 105,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Francia",
+            "value": 0,
+            "weights": 140,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Germania",
+            "value": 0,
+            "weights": 627,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Italia",
+            "value": 0,
+            "weights": 572,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 239,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Valle delĺ'Adige",
+            "target": "Turchia",
+            "value": 0,
+            "weights": 1,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Valle delĺ'Adige",
             "target": "Ungheria",
-            "value": 1
+            "value": 0,
+            "weights": 67,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle delĺ'Adige",
-            "target": "Europa",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Austria",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
+            "source": "Alta Valsugana e Bersntol",
             "target": "Africa",
-            "value": 1
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle delĺ'Adige",
-            "target": "Germania",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Esteri d'Europa",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
-            "target": "Italia",
-            "value": 1
-        },
-        {
-            "source": "Valle delĺ'Adige",
+            "source": "Alta Valsugana e Bersntol",
             "target": "America",
-            "value": 1
+            "value": 0,
+            "weights": 150,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
-            "source": "Valle delĺ'Adige",
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Asia",
+            "value": 0,
+            "weights": 3,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Austria",
+            "value": 0,
+            "weights": 593,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Austria-Ungheria",
+            "value": 0,
+            "weights": 978,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
             "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 7,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Europa",
+            "value": 0,
+            "weights": 984,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Esteri d'Europa",
+            "value": 0,
+            "weights": 40,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Francia",
+            "value": 0,
+            "weights": 146,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Germania",
+            "value": 0,
+            "weights": 947,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Italia",
+            "value": 0,
+            "weights": 199,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Svizzera",
+            "value": 0,
+            "weights": 234,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
+        },
+        {
+            "source": "Alta Valsugana e Bersntol",
+            "target": "Turchia",
+            "value": 0,
+            "weights": 7,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         },
         {
             "source": "Alta Valsugana e Bersntol",
             "target": "Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Europa",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Austria",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Austria-Ungheria",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Africa",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Germania",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Svizzera",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Francia",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Turchia",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Asia",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Esteri d'Europa",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Italia",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "America",
-            "value": 1
-        },
-        {
-            "source": "Alta Valsugana e Bersntol",
-            "target": "Bosnia-Erzegovina",
-            "value": 1
+            "value": 0,
+            "weights": 111,
+            "emphasis": {
+                "lineStyle": {
+                    "opacity": 1
+                }
+            }
         }
     ]
 }
