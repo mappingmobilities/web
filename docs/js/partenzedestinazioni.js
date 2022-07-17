@@ -8,7 +8,16 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
 
     option_partenzedestinazioni = {
         title: {},
-        tooltip: {},
+        tooltip: {
+            trigger: "item",
+            lineStyle: {
+                emphasis: {
+                    lineStyle: {
+                        opacity: 1
+                    }
+                }
+            }
+        },
         animationDurationUpdate: 6000,
         animationEasingUpdate: 'quinticInOut',
         series: [{
@@ -44,8 +53,21 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
     partenzedestinazioniChart.on('mouseover', function(params) {
         // Print name in console
         cicciola = params;
-
         console.log(params.dataIndex);
+        nodename = params.data.name;
+        links = option_partenzedestinazioni.series[0].links;
+        new_links = Array();
+        for (i = 0; i < links.length; i++) {
+            link = links[i];
+            if (link.source == nodename || link.target == nodename) {
+                link.lineStyle.opacity = 1;
+            } else {
+                link.lineStyle.opacity = 0;
+            }
+            new_links.push(link);
+        }
+        option_partenzedestinazioni.series[0].links = new_links;
+        partenzedestinazioniChart.setOption(option_partenzedestinazioni);
     });
 });
 

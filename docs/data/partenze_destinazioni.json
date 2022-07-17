@@ -4,7 +4,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -15,7 +15,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -26,7 +26,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -37,7 +37,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -48,7 +48,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -59,7 +59,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -70,7 +70,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -81,7 +81,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -92,7 +92,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -103,7 +103,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -114,7 +114,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -125,7 +125,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -136,7 +136,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -147,7 +147,7 @@
             "value": 1,
             "label": {
                 "show": true,
-                "position": "top",
+                "position": "middle",
                 "verticalAlign": "top",
                 "distance": 0,
                 "rotate": 25
@@ -227,10 +227,8 @@
             "target": "America",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -238,10 +236,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -249,10 +245,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -260,10 +254,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -271,10 +263,8 @@
             "target": "America",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -282,10 +272,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -293,10 +281,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -304,10 +290,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -315,10 +299,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -326,10 +308,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -337,10 +317,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -348,10 +326,8 @@
             "target": "America",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -359,10 +335,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -370,10 +344,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -381,10 +353,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -392,10 +362,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -403,10 +371,8 @@
             "target": "America",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -414,10 +380,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 5,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -425,10 +389,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -436,10 +398,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 5,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -447,10 +407,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -458,10 +416,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -469,10 +425,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -480,10 +434,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -491,10 +443,8 @@
             "target": "America",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -502,10 +452,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 8,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -513,10 +461,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -524,10 +470,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -535,10 +479,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -546,10 +488,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -557,10 +497,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 8,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -568,10 +506,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -579,10 +515,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -590,10 +524,8 @@
             "target": "America",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -601,10 +533,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -612,10 +542,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 12,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -623,10 +551,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -634,10 +560,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -645,10 +569,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -656,10 +578,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 13,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -667,10 +587,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 5,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -678,10 +596,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -689,10 +605,8 @@
             "target": "America",
             "value": 0,
             "weights": 7,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -700,10 +614,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 5,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -711,10 +623,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -722,10 +632,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 13,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -733,10 +641,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -744,10 +650,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 5,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -755,10 +659,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -766,10 +668,8 @@
             "target": "America",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -777,10 +677,8 @@
             "target": "Asia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -788,10 +686,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -799,10 +695,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 13,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -810,10 +704,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -821,10 +713,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 8,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -832,10 +722,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 8,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -843,10 +731,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -854,10 +740,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 5,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -865,10 +749,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -876,10 +758,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 17,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -887,10 +767,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -898,10 +776,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -909,10 +785,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -920,10 +794,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -931,10 +803,8 @@
             "target": "America",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -942,10 +812,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 11,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -953,10 +821,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 29,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -964,10 +830,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 9,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -975,10 +839,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -986,10 +848,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -997,10 +857,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 21,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1008,10 +866,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 20,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1019,10 +875,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1030,10 +884,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1041,10 +893,8 @@
             "target": "America",
             "value": 0,
             "weights": 22,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1052,10 +902,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 81,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1063,10 +911,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 117,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1074,10 +920,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1085,10 +929,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 129,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1096,10 +938,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 8,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1107,10 +947,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 13,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1118,10 +956,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 69,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1129,10 +965,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 87,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1140,10 +974,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 16,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1151,10 +983,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 13,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1162,10 +992,8 @@
             "target": "Africa",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1173,10 +1001,8 @@
             "target": "America",
             "value": 0,
             "weights": 36,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1184,10 +1010,8 @@
             "target": "Asia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1195,10 +1019,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 84,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1206,10 +1028,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 161,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1217,10 +1037,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1228,10 +1046,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 182,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1239,10 +1055,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 8,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1250,10 +1064,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 34,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1261,10 +1073,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 113,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1272,10 +1082,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 52,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1283,10 +1091,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 53,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1294,10 +1100,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 21,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1305,10 +1109,8 @@
             "target": "Africa",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1316,10 +1118,8 @@
             "target": "America",
             "value": 0,
             "weights": 79,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1327,10 +1127,8 @@
             "target": "Asia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1338,10 +1136,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 215,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1349,10 +1145,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 302,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1360,10 +1154,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 6,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1371,10 +1163,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 330,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1382,10 +1172,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 21,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1393,10 +1181,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 98,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1404,10 +1190,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 237,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1415,10 +1199,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 200,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1426,10 +1208,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 94,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1437,10 +1217,8 @@
             "target": "Turchia",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1448,10 +1226,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 68,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1459,10 +1235,8 @@
             "target": "America",
             "value": 0,
             "weights": 80,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1470,10 +1244,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 253,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1481,10 +1253,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 357,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1492,10 +1262,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1503,10 +1271,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 418,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1514,10 +1280,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 29,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1525,10 +1289,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 56,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1536,10 +1298,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 253,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1547,10 +1307,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 222,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1558,10 +1316,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 70,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1569,10 +1325,8 @@
             "target": "Turchia",
             "value": 0,
             "weights": 2,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1580,10 +1334,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 56,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1591,10 +1343,8 @@
             "target": "America",
             "value": 0,
             "weights": 104,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1602,10 +1352,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 386,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1613,10 +1361,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 587,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1624,10 +1370,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 10,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1635,10 +1379,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 579,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1646,10 +1388,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 28,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1657,10 +1397,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 173,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1668,10 +1406,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 582,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1679,10 +1415,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 147,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1690,10 +1424,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 185,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1701,10 +1433,8 @@
             "target": "Turchia",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1712,10 +1442,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 100,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1723,10 +1451,8 @@
             "target": "Africa",
             "value": 0,
             "weights": 4,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1734,10 +1460,8 @@
             "target": "America",
             "value": 0,
             "weights": 218,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1745,10 +1469,8 @@
             "target": "Asia",
             "value": 0,
             "weights": 7,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1756,10 +1478,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 393,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1767,10 +1487,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 1208,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1778,10 +1496,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 77,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1789,10 +1505,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 690,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1800,10 +1514,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 105,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1811,10 +1523,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 140,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1822,10 +1532,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 627,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1833,10 +1541,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 572,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1844,10 +1550,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 239,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1855,10 +1559,8 @@
             "target": "Turchia",
             "value": 0,
             "weights": 1,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1866,10 +1568,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 67,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1877,10 +1577,8 @@
             "target": "Africa",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1888,10 +1586,8 @@
             "target": "America",
             "value": 0,
             "weights": 150,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1899,10 +1595,8 @@
             "target": "Asia",
             "value": 0,
             "weights": 3,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1910,10 +1604,8 @@
             "target": "Austria",
             "value": 0,
             "weights": 593,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1921,10 +1613,8 @@
             "target": "Austria-Ungheria",
             "value": 0,
             "weights": 978,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1932,10 +1622,8 @@
             "target": "Bosnia-Erzegovina",
             "value": 0,
             "weights": 7,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1943,10 +1631,8 @@
             "target": "Europa",
             "value": 0,
             "weights": 984,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1954,10 +1640,8 @@
             "target": "Esteri d'Europa",
             "value": 0,
             "weights": 40,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1965,10 +1649,8 @@
             "target": "Francia",
             "value": 0,
             "weights": 146,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1976,10 +1658,8 @@
             "target": "Germania",
             "value": 0,
             "weights": 947,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1987,10 +1667,8 @@
             "target": "Italia",
             "value": 0,
             "weights": 199,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -1998,10 +1676,8 @@
             "target": "Svizzera",
             "value": 0,
             "weights": 234,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -2009,10 +1685,8 @@
             "target": "Turchia",
             "value": 0,
             "weights": 7,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         },
         {
@@ -2020,10 +1694,8 @@
             "target": "Ungheria",
             "value": 0,
             "weights": 111,
-            "emphasis": {
-                "lineStyle": {
-                    "opacity": 1
-                }
+            "lineStyle": {
+                "opacity": 0
             }
         }
     ]
