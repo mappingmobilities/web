@@ -1,9 +1,4 @@
 var macrodestinazioniChart = echarts.init(document.getElementById('macrodestinazioni'), "mappingmobilities");
-/*, {
-        renderer: 'canvas',
-        useDirtyRect: false
-    });
-*/
 var option_macrodestinazioni;
 
 option_macrodestinazioni = {
@@ -16,9 +11,19 @@ option_macrodestinazioni = {
     label: {
         show: false
     },
+    emphasis: {
+        disabled: true
+    },
+    select: {
+        disabled: false
+    },
     selectedMode: 'false',
+    leafDepth: 0,
     series: [{
         type: 'treemap',
+        breadcrumb: {
+            show: false
+        },
         roam: false,
         nodeClick: false,
         data: [{
@@ -98,7 +103,9 @@ option_macrodestinazioni = {
                     fontFamily: 'DM Sans',
                     fontSize: '17',
                     position: 'bottom',
-                    overflow: 'break',
+                    verticalAlign: 'none',
+                    overflow: 'none',
+                    padding: -30,
                     color: "#D34343"
                 },
             }

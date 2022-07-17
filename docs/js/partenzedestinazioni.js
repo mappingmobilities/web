@@ -7,9 +7,11 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
 
     option_partenzedestinazioni = {
         title: {},
+        /*
         tooltip: {
             formatter: function(params) {
-                cicciola = params
+                nodename = params.data.name;
+                links = option_partenzedestinazioni.series[0].links;
                 return params.name; // + ': ' + params.label.rotate;
             },
             trigger: "item",
@@ -21,6 +23,11 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
                 }
             }
         },
+        */
+        left: "auto",
+        right: "auto",
+        bottom: "auto",
+        top: "auto",
         animationDurationUpdate: 6000,
         animationEasingUpdate: 'quinticInOut',
         series: [{
@@ -30,6 +37,7 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
             links: graph.links,
             selectedMode: false,
             roam: false,
+            draggable: false,
             nodeGap: 1,
             label: {
                 show: true,
@@ -60,7 +68,7 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
         for (i = 0; i < links.length; i++) {
             link = links[i];
             if (link.source == nodename || link.target == nodename) {
-                link.lineStyle.opacity = 1;
+                link.lineStyle.opacity = 0.5;
             } else {
                 link.lineStyle.opacity = 0;
             }
