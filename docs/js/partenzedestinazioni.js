@@ -1,7 +1,6 @@
 var partenzedestinazioniChart = echarts.init(document.getElementById('partenzedestinazioni'), "moretti");
 partenzedestinazioniChart.showLoading();
 var cicciola;
-
 $.getJSON('data/partenze_destinazioni.json', function(graph) {
 
     partenzedestinazioniChart.hideLoading();
@@ -9,6 +8,10 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
     option_partenzedestinazioni = {
         title: {},
         tooltip: {
+            formatter: function(params) {
+                cicciola = params
+                return params.name; // + ': ' + params.label.rotate;
+            },
             trigger: "item",
             lineStyle: {
                 emphasis: {
@@ -51,9 +54,6 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
     };
     partenzedestinazioniChart.setOption(option_partenzedestinazioni);
     partenzedestinazioniChart.on('mouseover', function(params) {
-        // Print name in console
-        cicciola = params;
-        console.log(params.dataIndex);
         nodename = params.data.name;
         links = option_partenzedestinazioni.series[0].links;
         new_links = Array();
