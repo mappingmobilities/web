@@ -1,4 +1,4 @@
-var volumiChart = echarts.init(document.getElementById('volumi'), "mappingmobilities");
+var volumiChart = echarts.init(document.getElementById('volumi'), "moretti");
 /*, {
         renderer: 'canvas',
         useDirtyRect: false
@@ -7,8 +7,9 @@ var volumiChart = echarts.init(document.getElementById('volumi'), "mappingmobili
 var option_volumi;
 
 option_volumi = {
-    aria: {
-        show: true
+    backgroundColor: '#FBEFE5', // 
+    grid: {
+        show: false
     },
     tooltip: {
         trigger: 'axis',
@@ -21,77 +22,39 @@ option_volumi = {
             }
         }
     },
-    /*
-    legend: {
-        data: ['Africa', 'America', 'Asia', 'Austria',
-            'Austria-Ungheria', 'Bosnia Erzegovina', 'Europa', "Esteri d'Europa", 'Francia',
-            'Germania', 'Italia', 'Svizzera', 'Turchia', 'Ungheria'
-        ],
-        show: "false"
+    label: {
+        show: false
     },
-    */
     singleAxis: {
-        axisTick: {
-            show: true,
+        axisLine: {
+            show: false
         },
+        axisTick: {},
         axisLabel: {
-            show: true
+            show: true,
+            color: "#D34343",
+            fontSize: 17,
+            fontFamily: 'DM Sans',
+            fontWeight: 400,
+            lineHeight: 5
         },
         type: 'time',
-        axisPointer: {
-            animation: true,
-            label: {
-                show: false
-            }
-        },
         splitLine: {
             show: true,
             lineStyle: {
-                type: 'dashed',
-                opacity: 0.6
+                type: 'solid',
+                opacity: 1,
+                color: '#FBEFE5',
+                width: 1,
+                z: 1,
             }
-        }
-    },
-    xAxis: {
-        axisLine: {
-            show: true
-        },
-        splitLine: {
-            show: true
-        },
-        axisLabel: {
-            show: true
-        },
-        axisTick: {
-            show: true
-        }
-    },
-    yAxis: {
-        axisLine: {
-            show: false
-        },
-        splitLine: {
-            show: false
-        },
-        axisLabel: {
-            show: false
-        },
-        axisTick: {
-            show: false
         }
     },
     series: [{
         type: 'themeRiver',
         colorBy: 'series',
         label: {
-            show: false,
-            distance: 10,
-            overflow: 'break',
-        },
-        selectedMode: 'single',
-        tooltip: {
-            show: true,
-            formatter: '{b0}: {c0}',
+            show: false
         },
         itemStyle: {
             color: "#D34343"
@@ -422,13 +385,15 @@ option_volumi = {
         ]
     }]
 };
+var cicciola;
 
 if (option_volumi && typeof option_volumi === 'object') {
     volumiChart.setOption(option_volumi);
-    volumiChart.on('dblclick', function(params) {
+    volumiChart.on('mouseover', function(params) {
         // Print name in console
-        console.log(params);
+        cicciola = params;
+        console.log(option_volumi.series[0].data[params.dataIndex][2]);
     });
 }
 
-window.addEventListener('resize', volumiChart.resize);
+window.addEventListener('resize', volumiChart.resize); // Resize chart on window resizewi.
