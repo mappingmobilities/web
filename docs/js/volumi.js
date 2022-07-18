@@ -13,23 +13,71 @@ option_volumi = {
     },
     tooltip: {
         trigger: 'axis',
+        textStyle: {
+            fontFamily: 'DM Sans',
+            fontSize: 17,
+            color: '#002254'
+        },
+        backgroundColor: '#FBEFE5',
+        opacity: 0.5,
+        formatter: function(params) {
+            scrivimi = params;
+            anno = 0;
+            toprint = "";
+            totale = 0;
+            for (i = 0; i < params.length; i++) {
+                values = params[i];
+                anno = values.data[0];
+                npassaporti = parseInt(values.data[1]);
+                totale = totale + npassaporti;
+                if (npassaporti > 0) {
+                    stato = values.data[2];
+                    toprint += stato + ": " + npassaporti + "<br/>";
+                }
+            }
+            header = "<p class='small'>" + totale + " passaporti rilasciati<br/> nell'" + anno + "<br/><br/>";
+            return header + toprint + "</p>";
+        },
         axisPointer: {
             type: 'line',
             lineStyle: {
-                color: 'rgba(0,0,0,0.2)',
+                color: '#D34343',
                 width: 1,
-                type: 'solid'
+                type: 'dotted',
+                opacity: 0.5
             }
         }
     },
+    emphasis: {
+        shadowBlur: 10,
+    },
     label: {
-        show: false
+        show: true
+    },
+    legend: {
+        type: 'scroll',
+        itemWidth: 5,
+        itemHeight: 5,
+        orient: 'horizontal',
+        data: ["Africa", "America", "Asia",
+            "Austria", "Austria-Ungheria", "Bosnia Erzegovina",
+            "Europa", "Esteri d'Europa", "Francia", "Germania",
+            "Italia", "Svizzera", "Turchia", "Ungheria"
+        ],
+        textStyle: {
+            fontFamily: 'DM Sans',
+            fontSize: 10,
+            color: '#002254'
+        },
+        padding: [370, 0, 0, 0]
     },
     singleAxis: {
         axisLine: {
-            show: false
+            show: false,
         },
-        axisTick: {},
+        axisTick: {
+            show: true
+        },
         axisLabel: {
             show: true,
             color: "#D34343",
@@ -52,6 +100,7 @@ option_volumi = {
     },
     series: [{
         type: 'themeRiver',
+        z: 100,
         colorBy: 'series',
         label: {
             show: false
@@ -59,6 +108,8 @@ option_volumi = {
         itemStyle: {
             color: "#D34343"
         },
+        singleAxisIndex: 0,
+        selectedMode: 'series',
         data: [
             ['1878', 0, 'Africa'],
             ['1879', 0, 'Africa'],
@@ -244,7 +295,7 @@ option_volumi = {
             ['1898', 1, "Esteri d'Europa"],
             ['1899', 0, "Esteri d'Europa"],
             ['1900', 0, "Esteri d'Europa"],
-            ['1878', 10, 'Franica'],
+            ['1878', 10, 'Francia'],
             ['1879', 8, 'Francia'],
             ['1880', 7, 'Francia'],
             ['1881', 8, 'Francia'],
