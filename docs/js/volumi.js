@@ -29,24 +29,14 @@ option_volumi = {
         ],
         show: "false"
     },
-    toolbox: {
-        feature: {
-            saveAsImage: {}
-        },
-        dataZoom: {
-            yAxisIndex: 'none'
-        },
-        restore: {},
-        saveAsImage: {}
-    },
     */
     singleAxis: {
-        //top: 50,
-        //bottom: 50,
         axisTick: {
             show: true,
         },
-        axisLabel: {},
+        axisLabel: {
+            show: true
+        },
         type: 'time',
         axisPointer: {
             animation: true,
@@ -58,22 +48,22 @@ option_volumi = {
             show: true,
             lineStyle: {
                 type: 'dashed',
-                opacity: 0.2
+                opacity: 0.6
             }
         }
     },
     xAxis: {
         axisLine: {
-            show: false
+            show: true
         },
         splitLine: {
-            show: false
+            show: true
         },
         axisLabel: {
-            show: false
+            show: true
         },
         axisTick: {
-            show: false
+            show: true
         }
     },
     yAxis: {
