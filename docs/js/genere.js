@@ -1,7 +1,25 @@
 var genereChart = echarts.init(document.getElementById('graficogenere'), "mappingmobilities");
 var option_genere;
+var decals = [{
+    color: 'rgba(211, 67, 67, 0.05)',
+    backgroundColor: '#FBEFE5',
+    dashArrayX: [1, 1],
+    dashArrayY: [1, 1]
+}, {
+    color: 'rgba(0, 34, 84, 0.05);',
+    backgroundColor: '#FBEFE5',
+    dashArrayX: [1, 1],
+    dashArrayY: [1, 1]
+}];
 
 option_genere = {
+    aria: {
+        enabled: true,
+        decal: {
+            show: true,
+            decals: decals
+        }
+    },
     legend: {
         show: false
     },
@@ -17,8 +35,10 @@ option_genere = {
     select: {
         disabled: false
     },
-    selectedMode: 'false',
-    leafDepth: 0,
+    selectedMode: false,
+    breadcrumb: {
+        show: false
+    },
     series: [{
         type: 'treemap',
         breadcrumb: {
@@ -30,11 +50,10 @@ option_genere = {
                 name: 'uomini',
                 value: 11496,
                 percentage: 92.67,
-                colorAlpha: 0,
                 itemStyle: {
                     color: '#FBEFE5',
                     borderColor: "#D34343",
-                    borderWidth: 1
+                    borderWidth: 2
                 },
                 label: {
                     align: 'left',
@@ -55,13 +74,16 @@ option_genere = {
                 }
             },
             {
+                colorAlpha: 1,
                 value: 908,
                 name: 'donne',
                 percentage: 7.33,
                 itemStyle: {
-                    color: '#FBEFE5',
+                    //color: "rgba(0, 34, 84, 1)",
+                    color: 'white',
+                    borderWidth: 2,
                     borderColor: "#002254",
-                    borderWidth: 1
+                    opacity: 1
                 },
                 label: {
                     align: 'left',

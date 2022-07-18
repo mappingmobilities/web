@@ -3,6 +3,25 @@
         roam: false,
         nodeClick: false,
         series: [{
+            emphasis: {
+                disabled: true
+            },
+            breadcrumb: {
+                show: false,
+                itemStyle: {
+                    color: '#002254',
+                    borderCap: 'round',
+                    borderJoin: 'miter',
+                    borderMiterLimit: 10,
+
+                    textStyle: {
+                        color: '#FBEFE5',
+                        fontFamily: 'DM Sans',
+                        fontWeight: 400,
+                        fontSize: 17
+                    }
+                }
+            },
             roam: false,
             type: 'treemap',
             tooltip: {
