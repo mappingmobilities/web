@@ -9,7 +9,13 @@
          tooltip: {
              trigger: 'item',
              showDelay: 2,
-             transitionDuration: 0.3
+             transitionDuration: 0.3,
+             formatter: function(params) {
+                 nome = params.data.name;
+                 valore = params.data.value;
+                 message = nome + "<br/>" + valore + "<Br/>rilasci";
+                 return message; // + ': ' + params.label.rotate;
+             },
          },
          visualMap: {
              min: 5, //0.5, //5,

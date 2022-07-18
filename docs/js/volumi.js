@@ -56,8 +56,8 @@ option_volumi = {
     },
     legend: {
         type: 'scroll',
-        itemWidth: 5,
-        itemHeight: 5,
+        itemWidth: 4,
+        itemHeight: 4,
         orient: 'horizontal',
         data: ["Africa", "America", "Asia",
             "Austria", "Austria-Ungheria", "Bosnia Erzegovina",
@@ -66,7 +66,7 @@ option_volumi = {
         ],
         textStyle: {
             fontFamily: 'DM Sans',
-            fontSize: 10,
+            fontSize: 8,
             color: '#002254'
         },
         padding: [370, 0, 0, 0]

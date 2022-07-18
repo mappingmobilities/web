@@ -1,19 +1,41 @@
 var partenzedestinazioniChart = echarts.init(document.getElementById('partenzedestinazioni'), "moretti");
 partenzedestinazioniChart.showLoading();
-var cicciola;
+var ciccy;
 $.getJSON('data/partenze_destinazioni.json', function(graph) {
 
     partenzedestinazioniChart.hideLoading();
 
     option_partenzedestinazioni = {
         title: {},
-        /*
         tooltip: {
             formatter: function(params) {
                 nodename = params.data.name;
                 links = option_partenzedestinazioni.series[0].links;
-                return params.name; // + ': ' + params.label.rotate;
+                from = nodename;
+                to = "";
+                totale = 0;
+                for (i = 0; i < links.length; i++) {
+                    link = links[i];
+                    if (link.source == nodename || link.target == nodename) {
+                        if (link.source == nodename) {
+                            m = link.target;
+                        } else {
+                            m = link.source;
+                        }
+                        m = m + ": " + link.weights;
+                        totale += link.weights;
+                        to += "<br/>" + m;
+                    }
+                }
+                return from + "<br/>totale " + totale + "<br/>" + to; // + ': ' + params.label.rotate;
             },
+            textStyle: {
+                fontFamily: 'DM Sans',
+                fontSize: 12,
+                color: '#002254'
+            },
+            backgroundColor: '#FBEFE5',
+            opacity: 0.3,
             trigger: "item",
             lineStyle: {
                 emphasis: {
@@ -23,7 +45,6 @@ $.getJSON('data/partenze_destinazioni.json', function(graph) {
                 }
             }
         },
-        */
         left: "auto",
         right: "auto",
         bottom: "auto",
