@@ -22,11 +22,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alike&family=Alike+Angular&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap " rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alike&family=Alike+Angular&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css " href="css/datatables.min.css" />
-    <link href="css/main.css" rel="stylesheet " type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -37,13 +37,13 @@
                     &nbsp;
                 </div>
                 <div class="col">
-                    <br/>
+                    <br />
                     <strong>
                         <h1>
-                        Mapping<br /><span style="padding-left: 1em;">Mobilities</span>
+                            Mapping<br /><span style="padding-left: 1em;">Mobilities</span>
                         </h1>
-                      </strong>
-                    <br/>
+                    </strong>
+                    <br />
                 </div>
                 <div class="col-2">
                     &nbsp;
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col">
                     <h2 class="text-center">A data journey into Trentino and migration phenomenon</h2>
-                    <br/>
+                    <br />
                 </div>
             </div>
             <div class="row">
@@ -94,12 +94,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col " id="volumi " style="width:30em;height:25em">
+                <div class="col" id="volumi" style="width:30em;height:25em">
 
                 </div>
             </div>
 
-            <div class="row " id="mostravolumi">
+            <div class="row" id="mostravolumi">
                 <div class="col-2">
                     &nbsp;
                 </div>
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col " id="macrodestinazioni " style="height:14em">
+                <div class="col" id="macrodestinazioni" style="height:14em">
                 </div>
             </div>
             <div class="row">
@@ -165,7 +165,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col " id="mappaorigini " style="width:30em;height:25em">
+                <div class="col" id="mappaorigini" style="width:30em;height:25em">
 
                 </div>
             </div>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col " id="partenzedestinazioni " style="width:auto;height:35em">
+                <div class="col" id="partenzedestinazioni" style="width:auto;height:35em">
 
                 </div>
             </div>
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col " id="graficomestieri " style="width:auto;height:50em">
+                    <div class="col" id="graficomestieri" style="width:auto;height:50em">
 
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col " id="distribuzioneta " style="width:auto;height:30em">
+                    <div class="col" id="distribuzioneta" style="width:auto;height:30em">
 
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col " id="graficogenere " style="width:auto;height:30em">
+                    <div class="col" id="graficogenere" style="width:auto;height:30em">
 
                     </div>
                 </div>
@@ -287,7 +287,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <br/>
+                        <br />
                         <h2>Testimonianze</h2>
                     </div>
                 </div>
@@ -296,12 +296,12 @@
                         <p>
                             <br /><br />
 
-                            <a class=" " href="# " data-bs-target="#caroselloTestimonianze " data-bs-slide="prev"><span
-                                class="carousel-control-prev-icon " aria-hidden="true"></span></a>
+                            <a class="" href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="prev"><span
+                                    class="carousel-control-prev-icon" aria-hidden="true"></span></a>
                         </p>
                     </div>
                     <div class="col">
-                        <div id="caroselloTestimonianze " class="carousel slide " data-bs-ride="carousel">
+                        <div id="caroselloTestimonianze" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     {% if page.testimonianza1 %} {% capture testimonianza1 %} {% include_relative _texts/{{ page.testimonianza1 }}%} {% endcapture %} {{ testimonianza1 | markdownify }} {% endif %}
@@ -320,10 +320,9 @@
                     </div>
                     <div class="col-1">
                         <p>
-                            <br/><br/>
-                            <a href="# " data-bs-target="#caroselloTestimonianze " data-bs-slide="next"><span
-                                    class="carousel-control-next-icon "
-                                    aria-hidden="true"></span></a>
+                            <br /><br />
+                            <a href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="next"><span
+                                    class="carousel-control-next-icon" aria-hidden="true"></span></a>
                         </p>
                     </div>
                 </div>
@@ -341,7 +340,7 @@
                 </div>
                 <div class="row">
                     <div class="table-responsive">
-                        <table id="datipassaporti " class="table card-table table-vcenter text-nowrap datatable display">
+                        <table id="datipassaporti" class="table card-table table-vcenter text-nowrap datatable display">
                             <thead>
                                 <tr>
                                     <th>nome</th>
@@ -378,7 +377,7 @@
                     <div class="col">
                         <br /><br />
                         <h2>Mapping Mobilites</h2>
-                        <br/>
+                        <br />
                     </div>
                 </div>
                 <div class="row">
@@ -394,7 +393,7 @@
                     </div>
                     <div class="col-4">
                         <p>
-                            <img width="100px " src="img/logo.svg " alt="logo " class="img-fluid" />
+                            <img width="100px" src="img/logo.svg" alt="logo" class="img-fluid" />
                         </p>
                     </div>
                 </div>
