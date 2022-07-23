@@ -1,3 +1,6 @@
-Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+{: style="text-align: right" }
+Mar del Plata, 27/04/1893
 
-(nome1 cognome1)
+Papà mi scrisse chiedendomi che mi spiegassi sulla questione del suo negozio cioè se avessi intenzione di rimpatriare e seguirlo io stesso. Vedi Giovanni dopo tutte le disgrazie che mi hanno colpito presi determinatamente la risoluzione di non stabilirmi più in Europa (…) e per evitarmi nuovi dolori sacrificherò qui in questa terra i pochi anni che mi restano da vivere, nella speranza di poter ritirare presso di me la mia Alba e attingere da essa quei conforti.
+
+(epistolario a Giovannini Francesco, 1891-1923)

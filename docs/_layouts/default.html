@@ -113,7 +113,7 @@
 
             <div class="row">
                 <div class="col">
-                    <Br />
+                    <br />
                     <p class="text-center">
                         <h2 class="text-center">PROVENIENZE</h2>
                     </p>
@@ -173,7 +173,7 @@
                 <div class="col">
                     <br />
                     <p class="text-center">
-                        <h2 class="text-center">PARTENZE E DESTINAZIONI</h2>
+                        <h2 class="text-center">ORIGINI E DESTINAZIONI</h2>
                     </p>
                 </div>
             </div>
@@ -301,7 +301,7 @@
                         </p>
                     </div>
                     <div class="col">
-                        <div id="caroselloTestimonianze" class="carousel slide" data-bs-ride="carousel">
+                        <div id="caroselloTestimonianze" class="carousel slide" data-bs-ride="carousel" data-interval="7000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     {% if page.testimonianza1 %} {% capture testimonianza1 %} {% include_relative _texts/{{ page.testimonianza1 }}%} {% endcapture %} {{ testimonianza1 | markdownify }} {% endif %}
