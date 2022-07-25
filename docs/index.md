@@ -12,6 +12,7 @@ genere: genere.md
 testimonianza1: testimonianza1.md
 testimonianza2: testimonianza2.md
 testimonianza3: testimonianza3.md
+bancadati: bancadati.md
 infoprogetto: infoprogetto.md
 collaborazioni: collaborazioni.md
 ---

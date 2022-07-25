@@ -339,8 +339,21 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-2">
+                        &nbsp;
+                    </div>
+                    <div class="col">
+                        {% if page.bancadati %} {% capture bancadati %} {% include_relative _texts/{{ page.bancadati }}%} {% endcapture %} {{ bancadati | markdownify }} {% endif %}
+                        <br /><br />
+                    </div>
+                    <div class="col-2">
+                        &nbsp;
+                    </div>
+                </div>
+
+                <div class="row">
                     <div class="table-responsive">
-                        <table id="datipassaporti" class="table card-table table-vcenter text-nowrap datatable display">
+                        <table id="datipassaporti" class="" style=" width:100%">
                             <thead>
                                 <tr>
                                     <th>nome</th>

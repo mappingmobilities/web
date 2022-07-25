@@ -244,9 +244,13 @@ ul {
     line-height: 230%;
     /* or 32px */
     letter-spacing: 0.01em;
-    text-transform: uppercase;
     /* Blue */
     color: #002254;
+}
+
+#esploradati table {
+    text-transform: uppercase;
+    border-bottom-color: coral;
 }
 
 #footer {
