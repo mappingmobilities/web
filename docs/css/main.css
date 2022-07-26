@@ -252,6 +252,24 @@ ul {
     text-transform: uppercase;
 }
 
+#datipassaporti_previous.disabled a {
+    background-color: #FBEFE5;
+    color: #002254;
+}
+
+#datipassaporti_ellipsis.disabled a {
+    background-color: #FBEFE5;
+    color: #002254;
+}
+
+#datipassaporti_next.disabled a {
+    background-color: #FBEFE5;
+    color: #002254;
+}
+
+
+/* paginate_button page-item previous disabled" id=" */
+
 .page-link {
     color: #002254;
     background-color: #FBEFE5;
