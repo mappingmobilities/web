@@ -250,7 +250,32 @@ ul {
 
 #esploradati table {
     text-transform: uppercase;
-    border-bottom-color: coral;
+}
+
+.page-link {
+    color: #002254;
+    background-color: #FBEFE5;
+    border-color: #FBEFE5;
+}
+
+.page-item.active .page-link {
+    color: #FBEFE5;
+    background-color: #002254;
+}
+
+.form-control {
+    color: #212529;
+    background-color: #FBEFE5;
+}
+
+.form-select {
+    color: #212529;
+    background-color: #FBEFE5;
+}
+
+.row_selected td {
+    background-color: black !important;
+    /* Add !important to make sure override datables base styles */
 }
 
 #footer {
