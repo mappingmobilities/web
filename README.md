@@ -1,2 +1,2 @@
 # web
-the nain website of the project mapping mobilities
+the main website of the project mapping mobilities
