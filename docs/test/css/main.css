@@ -1,0 +1,336 @@
+body {
+    color: #002254;
+    background: #FBEFE5;
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#header {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+    background-image: url("../img/topography_contour_map.svg");
+}
+
+#header h1 {
+    /*
+    position: absolute;
+    width: 788.14px;
+    height: 181.76px;
+    left: 328.86px;
+    top: 293.14px;
+    */
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 80%;
+    /* or 82px */
+    text-transform: uppercase;
+    /* Brown */
+    color: #D34343;
+}
+
+#header h2 {
+    /*
+    position: absolute;
+    left: 16.3%;
+    right: 15.93%;
+    top: 88.71%;
+    bottom: 3.56%;
+    */
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    /* Brown */
+    color: #D34343;
+    text-transform: none;
+}
+
+#volumimigrazione {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
+
+#volumimigrazione h2 {
+    font-family: 'Alike Angular', serif;
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 80%;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 80%;
+    color: #D34343;
+}
+
+#provenienze {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Beige */
+    color: #FBEFE5;
+    /* Blue */
+    background: #002254;
+    opacity: 0.75;
+}
+
+#provenienze h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FBEFE5;
+}
+
+#mestieri h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    /* Blue */
+    color: #002254;
+}
+
+#uominidonne {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
+
+#uominidonne h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    /* Blue */
+    color: #002254;
+}
+
+#genere {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
+
+#genere h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    /* Blue */
+    color: #002254;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: 002254;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid 002254;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #002254;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #002254;
+}
+
+#testimonianze {
+    /* Brown */
+    font-size: 17px;
+    background: #D34343;
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 160%;
+    /* or 59px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
+
+#testimonianze h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FBEFE5;
+    padding-bottom: 3em;
+}
+
+#esploradati h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    /* or 26px */
+    text-align: center;
+    text-transform: uppercase;
+    /* Blue */
+    color: #002254;
+}
+
+#esploradati {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 230%;
+    /* or 32px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
+
+#esploradati table {
+    text-transform: uppercase;
+}
+
+#datipassaporti_previous.disabled a {
+    background-color: #FBEFE5;
+    color: #002254;
+}
+
+#datipassaporti_ellipsis.disabled a {
+    background-color: #FBEFE5;
+    color: #002254;
+}
+
+#datipassaporti_next.disabled a {
+    background-color: #FBEFE5;
+    color: #002254;
+}
+
+
+/* paginate_button page-item previous disabled" id=" */
+
+.page-link {
+    color: #002254;
+    background-color: #FBEFE5;
+    border-color: #FBEFE5;
+}
+
+.page-item.active .page-link {
+    color: #FBEFE5;
+    background-color: #002254;
+}
+
+.form-control {
+    color: #212529;
+    background-color: #FBEFE5;
+}
+
+.form-select {
+    color: #212529;
+    background-color: #FBEFE5;
+}
+
+.row_selected td {
+    background-color: black !important;
+    /* Add !important to make sure override datables base styles */
+}
+
+#footer {
+    /* Blue */
+    color: #FBEFE5;
+    background: #002254;
+    opacity: 0.75;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: small;
+    /* 17px;*/
+    line-height: 160%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    color: #FBEFE5;
+}
+
+#footer h2 {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: normal;
+    /*32px;*/
+    line-height: 80%;
+    /* or 26px */
+    text-transform: uppercase;
+}
+
+#caroselloTestimonianze {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 59px */
+    letter-spacing: 0.01em;
+    /* Blue */
+    color: #002254;
+}
