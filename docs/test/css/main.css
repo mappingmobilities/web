@@ -52,13 +52,33 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 80%;
+    line-height: 110%;
     /* or 26px */
     /* Brown */
     color: #D34343;
     text-transform: none;
 }
 
+#header h4 {
+    font-size: 1.2rem;
+}
+
+.statement{
+  margin: 3rem 0 3rem 0;
+}
+.space-top-huge{
+  margin-top: 3rem;
+}
+.space-top-mid{
+  margin-top: 3rem;
+}
+.space-top-tiny{
+  margin-top: 3rem;
+}
+.max-1320{
+  max-width: 1320px;
+  margin: 0 auto;
+}
 #volumimigrazione {
     font-family: 'DM Sans';
     font-style: normal;
@@ -194,7 +214,13 @@ ul {
     font-size: 55px;
     color: #002254;
 }
-
+.statement{
+  font-family: 'Alike Angular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 110%;
+}
 #testimonianze {
     /* Brown */
     font-size: 17px;
@@ -240,8 +266,8 @@ ul {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 230%;
+    font-size: 17px;
+    line-height: 160%;
     /* or 32px */
     letter-spacing: 0.01em;
     /* Blue */
