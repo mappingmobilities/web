@@ -222,21 +222,19 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 110%;
+  line-height: 130%;
 }
 #testimonianze {
-    /* Brown */
-    font-size: 17px;
     background: #D34343;
-    font-family: 'Alike Angular';
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 37px;
+    font-size: 17px;
     line-height: 160%;
-    /* or 59px */
+    /* or 32px */
     letter-spacing: 0.01em;
     /* Blue */
-    color: #002254;
+    color: #FBEFE5;
 }
 
 #testimonianze h2 {
@@ -248,9 +246,16 @@ ul {
     /* or 26px */
     text-align: center;
     text-transform: uppercase;
-    color: #FBEFE5;
-    padding-bottom: 3em;
+    color: #002254;
+
 }
+
+#testimonianze .col-1 {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
 
 #esploradati h2 {
     font-family: 'Alike Angular';
@@ -383,4 +388,13 @@ ul {
     letter-spacing: 0.01em;
     /* Blue */
     color: #002254;
+
+}
+#caroselloTestimonianze .text-end{
+  text-align: left;
+  margin: 0;
+}
+#caroselloTestimonianze .statement{
+  text-align: left;
+  margin: .5rem 0 .5rem 0;
 }
