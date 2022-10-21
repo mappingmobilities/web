@@ -52,13 +52,40 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 80%;
+    line-height: 110%;
     /* or 26px */
     /* Brown */
     color: #D34343;
     text-transform: none;
 }
 
+#header h4 {
+    font-size: 1.2rem;
+}
+
+.statement{
+  margin: 3rem 0 3rem 0;
+}
+.border-top{
+  border-top: 1px solid 1px solid rgba(221, 225, 230, 0.15);
+  padding-top: 2rem;
+}
+.space-top-enormous{
+  margin-top: 10rem;
+}
+.space-top-huge{
+  margin-top: 3rem;
+}
+.space-top-mid{
+  margin-top: 3rem;
+}
+.space-top-tiny{
+  margin-top: 3rem;
+}
+.max-1320{
+  max-width: 1320px;
+  margin: 0 auto;
+}
 #volumimigrazione {
     font-family: 'DM Sans';
     font-style: normal;
@@ -194,20 +221,24 @@ ul {
     font-size: 55px;
     color: #002254;
 }
-
+.statement{
+  font-family: 'Alike Angular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 130%;
+}
 #testimonianze {
-    /* Brown */
-    font-size: 17px;
     background: #D34343;
-    font-family: 'Alike Angular';
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 37px;
+    font-size: 17px;
     line-height: 160%;
-    /* or 59px */
+    /* or 32px */
     letter-spacing: 0.01em;
     /* Blue */
-    color: #002254;
+    color: #FBEFE5;
 }
 
 #testimonianze h2 {
@@ -219,9 +250,16 @@ ul {
     /* or 26px */
     text-align: center;
     text-transform: uppercase;
-    color: #FBEFE5;
-    padding-bottom: 3em;
+    color: #002254;
+
 }
+
+#testimonianze .col-1 {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
 
 #esploradati h2 {
     font-family: 'Alike Angular';
@@ -240,8 +278,8 @@ ul {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 230%;
+    font-size: 17px;
+    line-height: 160%;
     /* or 32px */
     letter-spacing: 0.01em;
     /* Blue */
@@ -249,7 +287,15 @@ ul {
 }
 
 #esploradati table {
+    /* text-transform: uppercase; */
+}
+#esploradati table td{
+    height: 40px;
+    border-bottom: 1px solid rgba(76,93,123,.3);
+}
+#esploradati table th{
     text-transform: uppercase;
+    font-size: 11px;
 }
 
 #datipassaporti_previous.disabled a {
@@ -278,7 +324,7 @@ ul {
 
 .page-item.active .page-link {
     color: #FBEFE5;
-    background-color: #002254;
+    background-color: #4c5d7b;
 }
 
 .form-control {
@@ -299,12 +345,11 @@ ul {
 #footer {
     /* Blue */
     color: #FBEFE5;
-    background: #002254;
-    opacity: 0.75;
+    background: #4c5d7b;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: small;
+
     /* 17px;*/
     line-height: 160%;
     /* or 27px */
@@ -322,6 +367,24 @@ ul {
     /* or 26px */
     text-transform: uppercase;
 }
+#footer ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+#footer img.logo-caritro,
+#footer img.logo-museo,
+#footer img.logo-fbk,
+#footer img.logo-ministero,
+#footer img.logo-archivio
+{
+  width:70%;
+  max-width: 140px;
+}
+
+#footer a{
+  color: #FBEFE5;
+
+}
 
 #caroselloTestimonianze {
     font-family: 'Alike Angular';
@@ -333,4 +396,13 @@ ul {
     letter-spacing: 0.01em;
     /* Blue */
     color: #002254;
+
+}
+#caroselloTestimonianze .text-end{
+  text-align: left;
+  margin: 0;
+}
+#caroselloTestimonianze .statement{
+  text-align: left;
+  margin: .5rem 0 .5rem 0;
 }

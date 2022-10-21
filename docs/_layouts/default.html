@@ -10,18 +10,18 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://mappingmobilities.fbk.eu/">
     <meta property="og:title" content="Mapping Mobilities — Un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento" ">
-    <meta property="og:description " content="Mapping Mobilities - un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento - è un progetto promosso dall’Istituto Storico Italo-Germanico della Fondazione Bruno Kessler di Trento,
+    <meta property=" og:description " content=" Mapping Mobilities - un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento - è un progetto promosso dall’Istituto Storico Italo-Germanico della Fondazione Bruno Kessler di Trento,
         grazie a un cofinanziamento della Fondazione Caritro e alla collaborazione con la Fondazione del Museo Storico del Trentino, l’Archivio provinciale di Trento e l’Archivio di Stato di Trento. La ricerca ha inteso riscoprire e valorizzare il prezioso
         patrimonio storico-archivistico rappresentato dai quasi 60.000 passaporti emessi tra il 1868 e il 1915, contenuti nel fondo il fondo “Commissariato di polizia” e che sono conservati nell’Archivio di Stato di Trento. Data l’ampiezza del fondo, è stato
         isolato un campione relativo ad anni particolarmente significativi per la storia della mobilità dei trentini.Tra il 1878 e il 1891 le richieste di passaporto aumentano sensibilmente, anche a seguito di eventi naturali che ebbero un impatto significativo
         sul tessuto economico e sociale del Trentino. I risultati qui presentati sintetizzano le caratteristiche degli spostamenti dei trentini, evidenziandone le caratteristiche e inserendolo in un più ampio contesto storico. Il campione considerato ha permesso
         la digitalizzazione di oltre 12.000 passaporti, grazie a questo lavoro è possibile conoscere i nomi, le provenienze e le destinazioni di migliaia di trentini che nel secondo Ottocento hanno deciso di muoversi oltre i confini della regione. ">
-    <meta property="og:image " content="https://mappingmobilities.fbk.eu/img/placeholder.png ">
+    <meta property=" og:image " content=" https://mappingmobilities.fbk.eu/img/placeholder.png ">
 
     <!-- Twitter -->
-    <meta property="twitter:card " content="summary_large_image ">
-    <meta property="twitter:url " content="http://mappingmobilities.fbk.eu/ ">
-    <meta property="twitter:title " content="Mapping Mobilities — Un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento "">
+    <meta property=" twitter:card " content=" summary_large_image ">
+    <meta property=" twitter:url " content=" http://mappingmobilities.fbk.eu/ ">
+    <meta property=" twitter:title " content=" Mapping Mobilities — Un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento "">
     <meta property="twitter:description" content="Mapping Mobilities - un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento - è un progetto promosso dall’Istituto Storico Italo-Germanico della Fondazione Bruno Kessler di Trento, grazie a un cofinanziamento della Fondazione Caritro e alla collaborazione con la Fondazione del Museo Storico del Trentino, l’Archivio provinciale di Trento e l’Archivio di Stato di Trento. La ricerca ha inteso riscoprire e valorizzare il prezioso patrimonio storico-archivistico rappresentato dai quasi 60.000 passaporti emessi tra il 1868 e il 1915, contenuti nel fondo il fondo “Commissariato di polizia” e che sono conservati nell’Archivio di Stato di Trento. Data l’ampiezza del fondo, è stato isolato un campione relativo ad anni particolarmente significativi per la storia della mobilità dei trentini.Tra il 1878 e il 1891 le richieste di passaporto aumentano sensibilmente, anche a seguito di eventi naturali che ebbero un impatto significativo sul tessuto economico e sociale del Trentino. I risultati qui presentati sintetizzano le caratteristiche degli spostamenti dei trentini, evidenziandone le caratteristiche e inserendolo in un più ampio contesto storico. Il campione considerato ha permesso la digitalizzazione di oltre 12.000 passaporti, grazie a questo lavoro è possibile conoscere i nomi, le provenienze e le destinazioni di migliaia di trentini che nel secondo Ottocento hanno deciso di muoversi oltre i confini della regione.">
     <meta property="twitter:image" content="https://mappingmobilities.fbk.eu/img/placeholder.png">
     <meta charset="utf-8">
@@ -56,28 +56,26 @@
                             Mapping<br /><span style="padding-left: 1em;">Mobilities</span>
                         </h1>
                     </strong>
-                    <br />
-                </div>
-                <div class="col-2">
-                    &nbsp;
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center">Un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento</h2>
-                    <br />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    &nbsp;
-                </div>
-                <div class="col">
-                    <br />
 
-                    <p>
-                        {% if page.introduzione %} {% capture introduzione %} {% include_relative _texts/{{ page.introduzione }}%} {% endcapture %} {{ introduzione | markdownify }} {% endif %}
-                    </p>
+                </div>
+                <div class="col-2">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-center">Un’analisi storica e digitale dell’emigrazione trentina tra Otto e Novecento
+                    </h4>
+                </div>
+            </div>
+            <div class="row statement">
+                <div class="col-2">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <!-- section 0 -->
+                    <h2> {% if page.statement %} {% capture statement %} {% include_relative _texts/{{ page.statement }}%} {% endcapture %} {{ statement | markdownify }} {% endif %}
+                    </h2>
                 </div>
                 <div class="col-2">
                     &nbsp;
@@ -86,10 +84,22 @@
         </section>
         <section id="volumimigrazione">
             <div class="row">
+                <div class="col-2">
+                    &nbsp;
+                </div>
+                <div class="col">
+                    <!-- section 1 -->
+                    {% if page.archive_intro %} {% capture archive_intro %} {% include_relative _texts/{{ page.archive_intro }}%} {% endcapture %} {{ archive_intro | markdownify }} {% endif %}
+                </div>
+                <div class="col-2">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row space-top-huge">
                 <div class="col">
                     <br />
                     <p class="text-center">
-                        <h2 class="text-center">I VOLUMI DELLA MOBILITÀ</h2>
+                        <h2 class="text-center">Vent'anni di migrazioni</h2>
                     </p>
                 </div>
             </div>
@@ -98,15 +108,16 @@
                     &nbsp;
                 </div>
                 <div class="col">
-                    {% if page.volumimobilita %} {% capture volumimobilita %} {% include_relative _texts/{{ page.volumimobilita }}%} {% endcapture %} {{ volumimobilita | markdownify }} {% endif %}
-
-                    <br /><br />
+                    <!-- section 2 -->
+                    {% if page.passaport_description %} {% capture passaport_description %} {% include_relative _texts/{{ page.passaport_description }}%} {% endcapture %} {{ passaport_description | markdownify }} {% endif %}
                 </div>
                 <div class="col-2">
                     &nbsp;
                 </div>
             </div>
-            <div class="row">
+
+            <div class="row space-top-tiny">
+                <h4 class="text-center">1878–1898, la parola ai dati</h4>
                 <div class="col" id="volumi" style="width:30em;height:25em">
 
                 </div>
@@ -116,19 +127,21 @@
                 <div class="col-2">
                     &nbsp;
                 </div>
-                <div class="col">
-                    <br /><br /> {% if page.volumimobilita2 %} {% capture volumimobilita2 %} {% include_relative _texts/{{ page.volumimobilita2 }}%} {% endcapture %} {{ volumimobilita2 | markdownify }} {% endif %}
+                <div class="col space-top-mid">
+                    <!-- section 3 -->
+                    {% if page.passport_requests %} {% capture passport_requests %} {% include_relative _texts/{{ page.passport_requests }}%} {% endcapture %} {{ passport_requests | markdownify }} {% endif %}
+
                 </div>
                 <div class="col-2">
                     &nbsp;
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row space-top-huge">
                 <div class="col">
                     <br />
                     <p class="text-center">
-                        <h2 class="text-center">PROVENIENZE</h2>
+                        <h2 class="text-center">DOVE MIGRAVANO?</h2>
                     </p>
                 </div>
             </div>
@@ -137,8 +150,9 @@
                     &nbsp;
                 </div>
                 <div class="col">
-                    {% if page.provenienze %} {% capture provenienze %} {% include_relative _texts/{{ page.provenienze }}%} {% endcapture %} {{ provenienze | markdownify }} {% endif %}
-                    <br /><br />
+                    <!-- section 4 -->
+
+                    {% if page.migration_destinations %} {% capture migration_destinations %} {% include_relative _texts/{{ page.migration_destinations }}%} {% endcapture %} {{ migration_destinations | markdownify }} {% endif %}
                 </div>
                 <div class="col-2">
                     &nbsp;
@@ -161,16 +175,17 @@
                 <div class="col">
                     <Br />
                     <p class="text-center">
-                        <h2 class="text-center">PROVENIENZE</h2>
+                        <h2 class="text-center">DA DOVE VENIVANO?</h2>
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row max-1320">
                 <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
-                    {% if page.geoprovenienze %} {% capture geoprovenienze %} {% include_relative _texts/{{ page.geoprovenienze }}%} {% endcapture %} {{ geoprovenienze | markdownify }} {% endif %}
+                    <!-- section 5 -->
+                    {% if page.origins %} {% capture origins %} {% include_relative _texts/{{ page.origins }}%} {% endcapture %} {{ origins | markdownify }} {% endif %}
                     <br /><br />
                 </div>
                 <div class="col-2">
@@ -178,6 +193,7 @@
                 </div>
             </div>
             <div class="row">
+                <h4 class="text-center">Quale valle ha visto più persone partire?</h4>
                 <div class="col" id="mappaorigini" style="width:30em;height:25em">
 
                 </div>
@@ -190,15 +206,13 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row max-1320">
                 <div class="col-2">
                     &nbsp;
                 </div>
                 <div class="col">
-                    <p>
-                        {% if page.partenzedestinazioni %} {% capture partenzedestinazioni %} {% include_relative _texts/{{ page.partenzedestinazioni }}%} {% endcapture %} {{ partenzedestinazioni | markdownify }} {% endif %}
-                    </p>
-                    <br /><br />
+                    <!-- section 6 -->
+                    {% if page.origins_destinations %} {% capture origins_destinations %} {% include_relative _texts/{{ page.origins_destinations }}%} {% endcapture %} {{ origins | markdownify }} {% endif %}
                 </div>
                 <div class="col-2">
                     &nbsp;
@@ -217,7 +231,7 @@
                 <div class="col">
                     <br /> <br />
                     <p class="text-center">
-                        <h2 class="text-center">mestieri</h2>
+                        <h2 class="text-center">Di cosa si occupavano?</h2>
                     </p>
                 </div>
                 <div class="row">
@@ -225,7 +239,8 @@
                         &nbsp;
                     </div>
                     <div class="col">
-                        {% if page.mestieri %} {% capture mestieri %} {% include_relative _texts/{{ page.mestieri }}%} {% endcapture %} {{ mestieri | markdownify }} {% endif %}
+                        <!-- section 7 -->
+                        {% if page.jobs %} {% capture jobs %} {% include_relative _texts/{{ page.jobs }}%} {% endcapture %} {{ jobs | markdownify }} {% endif %}
                         <br /><br />
                     </div>
                     <div class="col-2">
@@ -252,16 +267,17 @@
                         &nbsp;
                     </div>
                     <div class="col">
-                        {% if page.uominidonne %} {% capture uominidonne %} {% include_relative _texts/{{ page.uominidonne }}%} {% endcapture %} {{ uominidonne | markdownify }} {% endif %}
-                        <br /><br />
+                        <!-- secction 8-->
+                        {% if page.gender %} {% capture gender %} {% include_relative _texts/{{ page.gender }}%} {% endcapture %} {{ jobs | markdownify }} {% endif %}
+
                     </div>
                     <div class="col-2">
                         &nbsp;
                     </div>
                 </div>
-                <div class="row">
+                <div class="row space-top-huge">
+                    <h4 class="text-center">La grande perdita dei giovani</h4>
                     <div class="col" id="distribuzioneta" style="width:auto;height:30em">
-
                     </div>
                 </div>
             </div>
@@ -271,7 +287,7 @@
                 <div class="col">
                     <br /> <br />
                     <p class="text-center">
-                        <h2 class="text-center">genere</h2>
+                        <h2 class="text-center">Uomini e donne</h2>
                     </p>
                 </div>
                 <div class="row">
@@ -279,8 +295,8 @@
                         &nbsp;
                     </div>
                     <div class="col">
-                        {% if page.genere %} {% capture genere %} {% include_relative _texts/{{ page.genere }}%} {% endcapture %} {{ genere | markdownify }} {% endif %}
-                        <br /><br />
+                        <!-- section 9 -->
+                        {% if page.gender_time %} {% capture gender_time %} {% include_relative _texts/{{ page.gender_time }}%} {% endcapture %} {{ gender_time | markdownify }} {% endif %}
                     </div>
                     <div class="col-2">
                         &nbsp;
@@ -299,43 +315,66 @@
         <section id="testimonianze">
             <div class="container">
                 <div class="row">
+                    <div class="col-2">
+                        &nbsp;
+                    </div>
                     <div class="col">
-                        <br />
-                        <h2>Testimonianze</h2>
+
+                        <h2 class="space-top-huge">Testimonianze</h2>
+                        <p>
+                            Numerose testimonianze conservate nelle istituzioni locali ci aiuta a restituire la dimensione umana della mobilità trentina. L’Archivio della Scrittura popolare promosso dalla Fondazione Museo storico del Trentino include numerose lettere ed epistolari
+                            di individui che hanno scelto di abbandonare le proprie terre; alcuni estratti dei loro documenti ci permette di restituire i contorni di quelle esperienze.
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        &nbsp;
                     </div>
                 </div>
+
+
                 <div class="row">
                     <div class="col-1">
                         <p>
-                            <br /><br />
 
-                            <a class="" href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="prev"><span
-                                    class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                            <a class="arrow" href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="prev"><span class="carousel-control-prev-icon"
+                                    aria-hidden="true"></span></a>
                         </p>
                     </div>
                     <div class="col">
-                        <div id="caroselloTestimonianze" class="carousel slide" data-bs-ride="carousel" data-interval="7000">
+                        <div id="caroselloTestimonianze" class="carousel slide space-top-huge" data-bs-ride="carousel" data-interval="7000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    {% if page.testimonianza1 %} {% capture testimonianza1 %} {% include_relative _texts/{{ page.testimonianza1 }}%} {% endcapture %} {{ testimonianza1 | markdownify }} {% endif %}
+                                    <p class="text-end">Mar del Plata, 27/04/1893</p>
+
+                                    <p class="statement">Vedi Giovanni dopo tutte le disgrazie che mi hanno colpito presi determinatamente la risoluzione di non stabilirmi più in Europa (…) e per evitarmi nuovi dolori sacrificherò qui in questa terra i pochi anni che mi restano
+                                        da vivere, nella speranza di poter ritirare presso di me la mia Alba e attingere da essa quei conforti.</p>
+
+                                    <p>(lettera di Giovannini Francesco, in epistolario Govannini Famiglia 1891-1923)
+                                    </p>
+
+
                                     <br />
                                 </div>
                                 <div class="carousel-item">
-                                    {% if page.testimonianza2 %} {% capture testimonianza2 %} {% include_relative _texts/{{ page.testimonianza2 }}%} {% endcapture %} {{ testimonianza2 | markdownify }} {% endif %}
+                                    <p class="text-end">Vulcan, 10 Setembre 1882</p>
+
+                                    <p class="statement">Siamo arivati in america in 14 dì di mare, arivato a Baltimora invece di Nova iorc ma siamo partiti subito per Cleveland ma in america bisogna avere più paura sula ferrovia che non sul mare (...) non passa setimana
+                                        che non si senta una corsa andata in una fossa (...) ho trovato subito lavoro ma d’inverno si dovrà andare nei boschi perchè al di fuori non si lavora.</p>
+
+                                    <p>(lettera di Luigi Gius alla moglie)</p>
+
+
                                     <br />
                                 </div>
-                                <div class="carousel-item">
-                                    {% if page.testimonianza3 %} {% capture testimonianza3 %} {% include_relative _texts/{{ page.testimonianza3 }}%} {% endcapture %} {{ testimonianza3 | markdownify }} {% endif %}
-                                    <br />
-                                </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-1">
                         <p>
-                            <br /><br />
-                            <a href="#" data-bs-target="#caroselloTestimonianze" data-bs-slide="next"><span
-                                    class="carousel-control-next-icon" aria-hidden="true"></span></a>
+
+                            <a href="#" class="arrow" data-bs-target="#caroselloTestimonianze" data-bs-slide="next"><span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span></a>
                         </p>
                     </div>
                 </div>
@@ -356,7 +395,8 @@
                         &nbsp;
                     </div>
                     <div class="col">
-                        {% if page.bancadati %} {% capture bancadati %} {% include_relative _texts/{{ page.bancadati }}%} {% endcapture %} {{ bancadati | markdownify }} {% endif %}
+                        <!-- section 10 -->
+                        {% if page.data_description %} {% capture data_description %} {% include_relative _texts/{{ page.data_description }}%} {% endcapture %} {{ data_description | markdownify }} {% endif %}
                         <br /><br />
                     </div>
                     <div class="col-2">
@@ -391,13 +431,13 @@
                             </thead>
                         </table>
                     </div>
-                    <br/><br/>
+                    <br /><br />
                 </div>
         </div>
         </section>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid space-top-enormous">
         <section id="footer">
             <div class="container">
                 <div class="row">
@@ -409,23 +449,73 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <p>
-                            {% if page.infoprogetto %} {% capture infoprogetto %} {% include_relative _texts/{{ page.infoprogetto }}%} {% endcapture %} {{ infoprogetto | markdownify }} {% endif %}
-                        </p>
+
+                        <p>è un progetto di:</p>
+
+                        <ul>
+                            <li>FBK - <a href="https://isig.fbk.eu/it/">Istituto Storico Italo Germanico</a>
+                                <ul>
+                                    <li>Anna Grillini (research)</li>
+                                    <li>Maurizio Cau (project management)</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        </li>
+                        </ul>
+
+
+
+
+
                     </div>
                     <div class="col-4">
-                        <p>
-                            {% if page.collaborazioni %} {% capture collaborazioni %} {% include_relative _texts/{{ page.collaborazioni }}%} {% endcapture %} {{ collaborazioni | markdownify }} {% endif %}
-                        </p>
+
+                        <p>in collaborazione con:</p>
+
+                        <ul>
+                            <li>FBK - <a href="https://dcl.fbk.eu">Digital Commons Lab</a>
+                            </li>
+
+                            <li>Maurizo Napolitano (data analysis and visualization)</li>
+                        </ul>
+
+
                     </div>
                     <div class="col-4">
-                        <p>
-                            <img width="100px" src="img/logo.svg" alt="logo" class="img-fluid" />
-                        </p>
+                        <p>&nbsp;</p>
+                        <ul>
+                            <li><a href="http://www.museostorico.it">Fondazione Museo Storico</a></li>
+                            <li>Matteo Moretti (website design)</li>
+                            <li>Beatrice Marsili (data curation)</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="row border-top">
+                    <div class="col-4">
+                        <p>Un progetto di </p>
+                        <p><img width="100px" src="img/logo.svg" alt="logo" class="logo-fbk" /></p>
+                    </div>
+                    <div class="col-4">
+                        <p>Finanziato da </p>
+                        <p><img class="logo-caritro" src="img/caritro.png" /></p>
+                        <p><img src="img/museo-storico.png" alt="logo" class="logo-museo" /></p>
+                    </div>
+                    <div class="col-4">
+                        <p>In collaborazione con </p>
+                        <p><img class="logo-archivio" src="img/archivio.png" /></p>
+                        <p><img src="img/ministero.png" alt="logo" class="logo-ministero" /></p>
                     </div>
                 </div>
+
             </div>
         </section>
+
+
+
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.5.1.js"></script>

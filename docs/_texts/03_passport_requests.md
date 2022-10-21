@@ -1,0 +1,1 @@
+Le oltre 12.000 richieste di passaporti e le partenze non documentate hanno certamente impattato pesantemente sulla crescita demografica, contribuendo a dipingere il quadro di un paese che andava via via svuotandosi.

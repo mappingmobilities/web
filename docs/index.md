@@ -1,19 +1,15 @@
 ---
 layout: default
-introduzione: 00_introduzione.md
-volumimobilita: 01_volumimobilita.md
-volumimobilita2: 02_volumimobilita2.md
-provenienze: 03_provenienze.md
-geoprovenienze: 04_geoprovenienze.md
-partenzedestinazioni: 05_partenzedestinazioni.md
-mestieri: 06_mestieri.md
-uominidonne: 07_uominidonne.md
-genere: 08_genere.md
-testimonianza1: 09_testimonianza1.md
-testimonianza2: 10_testimonianza2.md
-testimonianza3: 11_testimonianza3.md
-bancadati: 12_bancadati.md
-infoprogetto: 13_infoprogetto.md
-collaborazioni: 14_collaborazioni.md
+statement: 00_statement.md
+archive_intro: 01_archive_intro.md
+passaport_description: 02_passaport_description.md
+passport_requests: 03_passport_requests.md
+migrations_destinations: 04_migrations_destinations.md
+origins: 05_origins.md
+origins_destinations: 06_origins_destinations.md
+jobs: 07_jobs.md
+gender: 08_gender.md
+gender_time: 09_gender_time.md
+data_description: 10_data_description.md
 ---
 

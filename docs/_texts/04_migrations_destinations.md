@@ -1,0 +1,4 @@
+A fronte di numeri così rilevanti sorge spontaneo domandarsi quali siano le destinazioni delle persone che decidono di lasciare la propria terra, per un tempo definito o permanentemente. Come è possibile osservare dal grafico, il 41% degli spostamenti riguarda destinazioni interne all’impero, mentre il 53% è diretto verso altri paesi europei. L’Austria è il paese maggiormente rappresentato nell’ambito della mobilità interna, mentre per quella europea troviamo la Germania, seguita dall’Italia.
+
+
+Le destinazioni all’interno dell’impero sono indicate in termini generici, per “Austria-Ungheria” vengono intesi i territori imperiali nella loro interezza, mentre “Austria” e “Ungheria” indicano i due paesi specifici.
