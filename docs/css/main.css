@@ -406,3 +406,9 @@ ul {
   text-align: left;
   margin: .5rem 0 .5rem 0;
 }
+
+
+.download-link {
+    color: #002254;
+    background-color: #fbefe5;
+    }
